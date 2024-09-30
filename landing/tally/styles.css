@@ -1,0 +1,387 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+/* navigation section at top bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 0 3%;
+  /* Adding this rule to make sure no extra space is caused by line-height */
+  line-height: 1;
+  max-width: 100%;
+}
+
+.company-logo {
+  max-width: 140px;
+  /* Ensuring the image doesn't add any extra space */
+  display: block;
+  margin: -25px 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.company-telephone {
+  max-width: 30px;
+  height: auto;
+  /* Ensuring the image doesn't add any extra space */
+  display: block;
+}
+
+p {
+  /* Resetting margin on the paragraph */
+  margin: 0;
+}
+
+/* Banner */
+.tally-banner-container {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.tally-banner-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  transition: left 0.5s ease-in-out;
+}
+
+.tally-banner-img.active {
+  left: 0; /* Only the active image is visible */
+}
+
+.tally-banner-img.prev {
+  left: 100%;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* motto section just below banner */
+.motto {
+  margin-top: 100px;
+  background-image: url("./img/motto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4% 4%;
+  max-width: 100%; /* Ensure it doesn’t exceed the viewport width */
+  color: white;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+/* why tally section */
+.why_tally {
+  margin-top: 50px;
+  display: flex;
+  gap: 5%;
+  padding: 0 4%;
+  flex-wrap: wrap;
+}
+.why_tally h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+}
+.why_tally p {
+  font-family: "Raleway", Sans-serif;
+}
+.why_tally-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  font-size: 14px;
+}
+.why_tally-img {
+  width: 45%;
+  z-index: 10;
+}
+
+/* features section */
+.features {
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: #6bbee6;
+  font-size: 16px;
+}
+.features svg {
+  display: block;
+}
+.features_section {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.features_section_text,
+.features_section_img {
+  width: 40%;
+  line-height: 1.6rem;
+  font-size: 14px;
+}
+.features_section_text h2 {
+  line-height: 2rem;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.features-section-text-last {
+  margin-top: 60px;
+}
+
+/* get more section */
+.get-more {
+  margin-top: -100px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background-image: url("./img/get_more/main.svg");
+  background-size: contain; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.get-more-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  z-index: 1;
+}
+.get-more-section-img-container {
+  background-size: contain; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.get-more-section-img {
+  max-width: auto;
+}
+.get-more-section-txt {
+  margin-top: 50px;
+  width: 40%;
+}
+.get-more-section-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.get-more-section-txt ul {
+  padding-left: 20px;
+}
+.get-more-section svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.rate-cards {
+  margin-top: 100px;
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.rate-card {
+  font-family: "Raleway", sans-serif;
+  max-width: 350px;
+  padding: 50px 38px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+.rate-card-logo {
+  width: 36%;
+  margin-bottom: 16px;
+}
+.rate-card-plan {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #686868;
+}
+.rate-card-plan-desc {
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+.rate-card-price {
+  font-size: 44px;
+  margin-bottom: 25px;
+  line-height: 2.5rem;
+}
+.rate-card-dis {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.rate-card-btn {
+  text-decoration: none;
+  color: black;
+  background-color: #ffc632;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 24px;
+  border: 0;
+}
+.enquire-now-btn {
+  text-decoration: none;
+  position: fixed;
+  right: 0px; /* Distance from the right edge */
+  top: 45vh; /* 70% of the viewport height */
+  transform: translateY(-50%) rotate(180deg); /* Rotate the text vertically */
+  transform-origin: center; /* Ensures the rotation is centered */
+  padding: 12px 14px;
+  background-color: #4dbbc2; /* Adjust the background color */
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  writing-mode: vertical-lr; /* Changes the text direction for a cleaner vertical appearance */
+}
+
+@media (max-width: 900px) {
+  .features-section-text-last {
+    margin-top: 0px;
+  }
+  .tally-banner-container {
+    height: 300px;
+  }
+  .divider {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .nav-right img {
+    height: 1.1rem;
+  }
+  .nav-right p {
+    font-size: 0.9rem;
+  }
+  .tally-banner-container {
+    margin-top: -30px;
+    height: 460px;
+  }
+  .enquire-now-btn {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .company-logo {
+    max-width: 120px;
+  }
+  .nav-right {
+    font-size: 1.3rem;
+  }
+  .motto {
+    margin-top: -50px;
+    font-size: 14px;
+    line-height: 1.6rem;
+  }
+  .why_tally {
+    margin-top: 50px;
+    display: block;
+  }
+  .why_tally-text,
+  .why_tally-img {
+    width: 100%;
+  }
+  .why_tally h2 {
+    font-size: 38px;
+  }
+  .features {
+    margin-top: 0px;
+  }
+  .get-more {
+    margin-top: 0px;
+  }
+  .features_section {
+    margin-top: 100px;
+    padding: 0 4%;
+  }
+  .features_section_img,
+  .features_section_text {
+    width: 100%;
+  }
+  .get-more h1 {
+    line-height: 2rem;
+  }
+  .get-more-section-img,
+  .get-more-section-txt {
+    width: 100%;
+  }
+  .get-more-section-txt {
+    padding: 0 4%;
+    margin-top: 0;
+  }
+  .mid-section-txt {
+    margin-top: 50px;
+  }
+  .get-more-section {
+    gap: 10px;
+  }
+  .get-more-section-img-container {
+    height: 350px;
+    background-size: contain;
+  }
+  .rate-cards {
+    padding: 0 5%;
+    margin-top: 40px;
+    gap: 50px;
+  }
+  .rate-card {
+    padding: 45px 0;
+  }
+}

@@ -1,0 +1,340 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 17 Aug 2024 14:17:04 at https://absoftindia.com/tallyprime +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://absoftindia.com/tallyprime -O1 "C:\Users\iZoe\Desktop\rt\ui" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:17:09	Warning: 	Note: due to https://absoftindia.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+14:21:15	Error: 	"Not Found" (404) at link https://absoftindia.com/wp-content/uploads/2019/01/3256657136926fa.jpg (from https://absoftindia.com/tallyprime/)
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=facebook
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F&t=TallyPrime
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=linkedin
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=jetpack-whatsapp
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=TallyPrime%20https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=twitter
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=twitter to https://twitter.com/intent/tweet?text=TallyPrime&url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=pinterest
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F06%2FTallyPrime-logo-1024x208.png&description=TallyPrime
+14:27:44	Warning: 	Found for https://absoftindia.com/tallyprime/?share=skype
+14:27:44	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime%2F&lang=en-US=&source=jetpack
+14:27:45	Warning: 	Found for https://absoftindia.com/tallyprime/?share=email
+14:27:45	Warning: 	File has moved from https://absoftindia.com/tallyprime/?share=email to https://absoftindia.com/tallyprime/?shared=email&msg=fail
+14:28:51	Error: 	"Gone" (410) at link https://js.hs-scripts.com/40113279.js?integration=WordPress&ver=10.1.24 (from https://absoftindia.com/tallyprime/)
+14:28:51	Warning: 	Retry after error -4 (No data (connection closed)) at link https://absoftindia.com/wp-content/plugins/ajax-search-for-woocommerce/assets/img/preloader.gif (from https://absoftindia.com/wp-content/plugins/ajax-search-for-woocommerce/assets/css/style.min.css?ver=1.11.0)
+14:29:52	Warning: 	Found for https://absoftindia.com/about-us/?share=facebook
+14:29:52	Warning: 	File has moved from https://absoftindia.com/about-us/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F&t=About%20Us
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=linkedin
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=jetpack-whatsapp
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=About%20Us%20https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=twitter
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=twitter to https://twitter.com/intent/tweet?text=About%20Us&url=https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=pinterest
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F06%2FSales_and_Implementation_5-1024x397.png&description=About%20Us
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=skype
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fabout-us%2F&lang=en-US=&source=jetpack
+14:29:55	Warning: 	Found for https://absoftindia.com/about-us/?share=email
+14:29:55	Warning: 	File has moved from https://absoftindia.com/about-us/?share=email to https://absoftindia.com/about-us/?shared=email&msg=fail
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=facebook
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F&t=Tally%20Prime%20Server
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=linkedin
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=jetpack-whatsapp
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20Prime%20Server%20https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=twitter
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20Prime%20Server&url=https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=pinterest
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fbusiness-process-optimization.png&description=Tally%20Prime%20Server
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=skype
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-prime-server%2F&lang=en-US=&source=jetpack
+14:30:09	Warning: 	Found for https://absoftindia.com/tally-prime-server/?share=email
+14:30:09	Warning: 	File has moved from https://absoftindia.com/tally-prime-server/?share=email to https://absoftindia.com/tally-prime-server/?shared=email&msg=fail
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=facebook
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F&t=Biz%20Analyst
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=linkedin
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=jetpack-whatsapp
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Biz%20Analyst%20https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=twitter
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=twitter to https://twitter.com/intent/tweet?text=Biz%20Analyst&url=https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=pinterest
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fcheck_in_check_out.png&description=Biz%20Analyst
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=skype
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fbizanalyst%2F&lang=en-US=&source=jetpack
+14:30:09	Warning: 	Found for https://absoftindia.com/bizanalyst/?share=email
+14:30:09	Warning: 	File has moved from https://absoftindia.com/bizanalyst/?share=email to https://absoftindia.com/bizanalyst/?shared=email&msg=fail
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=facebook
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F&t=Spine%20Software
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=linkedin
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=jetpack-whatsapp
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Spine%20Software%20https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=twitter
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=twitter to https://twitter.com/intent/tweet?text=Spine%20Software&url=https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=pinterest
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F12%2F880922.png&description=Spine%20Software
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=skype
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fspine_software%2F&lang=en-US=&source=jetpack
+14:30:11	Warning: 	Found for https://absoftindia.com/spine_software/?share=email
+14:30:11	Warning: 	File has moved from https://absoftindia.com/spine_software/?share=email to https://absoftindia.com/spine_software/?shared=email&msg=fail
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=facebook
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F&t=Tally%20on%20Cloud
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=linkedin
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=jetpack-whatsapp
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20on%20Cloud%20https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=twitter
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20on%20Cloud&url=https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=pinterest
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Ftally-on-cloud.png&description=Tally%20on%20Cloud
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=skype
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-on-cloud%2F&lang=en-US=&source=jetpack
+14:30:12	Warning: 	Found for https://absoftindia.com/tally-on-cloud/?share=email
+14:30:12	Warning: 	File has moved from https://absoftindia.com/tally-on-cloud/?share=email to https://absoftindia.com/tally-on-cloud/?shared=email&msg=fail
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=facebook
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F&t=Tally%20on%20AWS%20Cloud
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=linkedin
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=jetpack-whatsapp
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20on%20AWS%20Cloud%20https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=twitter
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20on%20AWS%20Cloud&url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=pinterest
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F06%2FPlatform-Agnostic.png&description=Tally%20on%20AWS%20Cloud
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=skype
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftallyprime-aws%2F&lang=en-US=&source=jetpack
+14:30:16	Warning: 	Found for https://absoftindia.com/tallyprime-aws/?share=email
+14:30:16	Warning: 	File has moved from https://absoftindia.com/tallyprime-aws/?share=email to https://absoftindia.com/tallyprime-aws/?shared=email&msg=fail
+14:30:17	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=facebook
+14:30:17	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F&t=Tally%20Support%20%28Onsite%20%2F%20Remote%20%29
+14:30:17	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=linkedin
+14:30:17	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F
+14:30:17	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=jetpack-whatsapp
+14:30:17	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20Support%20%28Onsite%20%2F%20Remote%20%29%20https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F
+14:30:17	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=twitter
+14:30:17	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20Support%20%28Onsite%20%2F%20Remote%20%29&url=https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F
+14:30:18	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=pinterest
+14:30:18	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=Tally%20Support%20%28Onsite%20%2F%20Remote%20%29
+14:30:18	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=skype
+14:30:18	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-support-onsite-remote%2F&lang=en-US=&source=jetpack
+14:30:18	Warning: 	Found for https://absoftindia.com/tally-support-onsite-remote/?share=email
+14:30:18	Warning: 	File has moved from https://absoftindia.com/tally-support-onsite-remote/?share=email to https://absoftindia.com/tally-support-onsite-remote/?shared=email&msg=fail
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=facebook
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F&t=Tally%20AMC
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=linkedin
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=jetpack-whatsapp
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20AMC%20https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=twitter
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20AMC&url=https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=pinterest
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F07%2FAMC-Package_-1-840x300-1.jpg&description=Tally%20AMC
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=skype
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-amc%2F&lang=en-US=&source=jetpack
+14:30:22	Warning: 	Found for https://absoftindia.com/tally-amc/?share=email
+14:30:22	Warning: 	File has moved from https://absoftindia.com/tally-amc/?share=email to https://absoftindia.com/tally-amc/?shared=email&msg=fail
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=facebook
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F&t=Tally%20Training
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=linkedin
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=jetpack-whatsapp
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20Training%20https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=twitter
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20Training&url=https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=pinterest
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F07%2FTally-img-2.jpg&description=Tally%20Training
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=skype
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-training%2F&lang=en-US=&source=jetpack
+14:30:23	Warning: 	Found for https://absoftindia.com/tally-training/?share=email
+14:30:23	Warning: 	File has moved from https://absoftindia.com/tally-training/?share=email to https://absoftindia.com/tally-training/?shared=email&msg=fail
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=facebook
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F&t=Tally%20Customization
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=linkedin
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=jetpack-whatsapp
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20Customization%20https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=twitter
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20Customization&url=https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=pinterest
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F06%2Fwhat-is-tally-customization-1.png&description=Tally%20Customization
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=skype
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-customization%2F&lang=en-US=&source=jetpack
+14:30:27	Warning: 	Found for https://absoftindia.com/tally-customization/?share=email
+14:30:27	Warning: 	File has moved from https://absoftindia.com/tally-customization/?share=email to https://absoftindia.com/tally-customization/?shared=email&msg=fail
+14:30:27	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=facebook
+14:30:27	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F&t=HRMS%20%26%20Payroll
+14:30:27	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=linkedin
+14:30:27	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F
+14:30:27	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=jetpack-whatsapp
+14:30:27	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=HRMS%20%26%20Payroll%20https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F
+14:30:27	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=twitter
+14:30:27	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=twitter to https://twitter.com/intent/tweet?text=HRMS%20%26%20Payroll&url=https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F
+14:30:28	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=pinterest
+14:30:28	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fdownload-1.png&description=HRMS%20%26%20Payroll
+14:30:28	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=skype
+14:30:28	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fhris-payroll%2F&lang=en-US=&source=jetpack
+14:30:28	Warning: 	Found for https://absoftindia.com/hris-payroll/?share=email
+14:30:28	Warning: 	File has moved from https://absoftindia.com/hris-payroll/?share=email to https://absoftindia.com/hris-payroll/?shared=email&msg=fail
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=facebook
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F&t=Tally%20Learning
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=linkedin
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=jetpack-whatsapp
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Tally%20Learning%20https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=twitter
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=twitter to https://twitter.com/intent/tweet?text=Tally%20Learning&url=https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=pinterest
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=Tally%20Learning
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=skype
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ftally-learning%2F&lang=en-US=&source=jetpack
+14:30:28	Warning: 	Found for https://absoftindia.com/tally-learning/?share=email
+14:30:28	Warning: 	File has moved from https://absoftindia.com/tally-learning/?share=email to https://absoftindia.com/tally-learning/?shared=email&msg=fail
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=facebook
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fcontact%2F&t=Contact
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=linkedin
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fcontact%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=jetpack-whatsapp
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Contact%20https%3A%2F%2Fabsoftindia.com%2Fcontact%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=twitter
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=twitter to https://twitter.com/intent/tweet?text=Contact&url=https%3A%2F%2Fabsoftindia.com%2Fcontact%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=pinterest
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fcontact%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=Contact
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=skype
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fcontact%2F&lang=en-US=&source=jetpack
+14:30:30	Warning: 	Found for https://absoftindia.com/contact/?share=email
+14:30:30	Warning: 	File has moved from https://absoftindia.com/contact/?share=email to https://absoftindia.com/contact/?shared=email&msg=fail
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=facebook
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Ffaq%2F&t=FAQ
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=linkedin
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Ffaq%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=jetpack-whatsapp
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=FAQ%20https%3A%2F%2Fabsoftindia.com%2Ffaq%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=twitter
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=twitter to https://twitter.com/intent/tweet?text=FAQ&url=https%3A%2F%2Fabsoftindia.com%2Ffaq%2F
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=pinterest
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Ffaq%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=FAQ
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=skype
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Ffaq%2F&lang=en-US=&source=jetpack
+14:30:30	Warning: 	Found for https://absoftindia.com/faq/?share=email
+14:30:30	Warning: 	File has moved from https://absoftindia.com/faq/?share=email to https://absoftindia.com/faq/?shared=email&msg=fail
+14:30:39	Warning: 	Found for https://absoftindia.com/careers/?share=facebook
+14:30:39	Warning: 	File has moved from https://absoftindia.com/careers/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fcareers%2F&t=Careers
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=linkedin
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fcareers%2F
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=jetpack-whatsapp
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Careers%20https%3A%2F%2Fabsoftindia.com%2Fcareers%2F
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=twitter
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=twitter to https://twitter.com/intent/tweet?text=Careers&url=https%3A%2F%2Fabsoftindia.com%2Fcareers%2F
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=pinterest
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fcareers%2F&media=https%3A%2F%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F06%2FFun-At-Work.jpg&description=Careers
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=skype
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fcareers%2F&lang=en-US=&source=jetpack
+14:30:40	Warning: 	Found for https://absoftindia.com/careers/?share=email
+14:30:40	Warning: 	File has moved from https://absoftindia.com/careers/?share=email to https://absoftindia.com/careers/?shared=email&msg=fail
+14:35:12	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=facebook
+14:35:12	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F&t=Message%20From%20CEO
+14:35:14	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=linkedin
+14:35:14	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F
+14:35:21	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=jetpack-whatsapp
+14:35:21	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Message%20From%20CEO%20https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F
+14:35:21	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=twitter
+14:35:21	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=twitter to https://twitter.com/intent/tweet?text=Message%20From%20CEO&url=https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F
+14:35:21	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=pinterest
+14:35:21	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=Message%20From%20CEO
+14:35:21	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=skype
+14:35:21	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fmessage-from-ceo%2F&lang=en-US=&source=jetpack
+14:35:21	Warning: 	Found for https://absoftindia.com/message-from-ceo/?share=email
+14:35:21	Warning: 	File has moved from https://absoftindia.com/message-from-ceo/?share=email to https://absoftindia.com/message-from-ceo/?shared=email&msg=fail
+14:35:36	Error: 	"Not Found" (404) at link https://futuriodemos.com/woocommerce-fashion/wp-content/uploads/sites/4/2018/10/sydney-opera-house-3381786_1920.jpg (from https://absoftindia.com/wp-content/uploads/elementor/css/post-153.css?ver=1689571057)
+14:35:37	Error: 	"Method Not Allowed" (405) at link https://absoftindia.com/xmlrpc.php (from https://absoftindia.com/basic-accounting-principles/)
+14:35:37	Error: 	"Not Found" (404) at link https://absoftindia.com/product/tally-erp-9-gold/ (from https://absoftindia.com/basic-accounting-principles/)
+14:35:37	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=facebook
+14:35:37	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F&t=Basic%20Accounting%20Principles
+14:35:37	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=linkedin
+14:35:37	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F
+14:35:37	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=jetpack-whatsapp
+14:35:37	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Basic%20Accounting%20Principles%20https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F
+14:35:37	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=twitter
+14:35:37	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=twitter to https://twitter.com/intent/tweet?text=Basic%20Accounting%20Principles&url=https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F
+14:35:37	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=pinterest
+14:35:37	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2020%2F05%2F1402798_3e7a.jpg%3Ffit%3D750%252C422%26ssl%3D1&description=Basic%20Accounting%20Principles
+14:35:38	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=skype
+14:35:38	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fbasic-accounting-principles%2F&lang=en-US=&source=jetpack
+14:35:38	Warning: 	Found for https://absoftindia.com/basic-accounting-principles/?share=email
+14:35:38	Warning: 	File has moved from https://absoftindia.com/basic-accounting-principles/?share=email to https://absoftindia.com/basic-accounting-principles/?shared=email&msg=fail
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=facebook
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F&t=What%20is%20Accounting%20%3F
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=linkedin
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=jetpack-whatsapp
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=What%20is%20Accounting%20%3F%20https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=twitter
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=twitter to https://twitter.com/intent/tweet?text=What%20is%20Accounting%20%3F&url=https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=pinterest
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2020%2F05%2FlXgXkW15RRytT4KZ9JRL_FinancialStatements.jpg%3Ffit%3D1200%252C675%26ssl%3D1&description=What%20is%20Accounting%20%3F
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=skype
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fwhat-is-accounting%2F&lang=en-US=&source=jetpack
+14:35:54	Warning: 	Found for https://absoftindia.com/what-is-accounting/?share=email
+14:35:54	Warning: 	File has moved from https://absoftindia.com/what-is-accounting/?share=email to https://absoftindia.com/what-is-accounting/?shared=email&msg=fail
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=facebook
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F&t=All%20About%20Financial%20Statements
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=linkedin
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=jetpack-whatsapp
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=All%20About%20Financial%20Statements%20https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=twitter
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=twitter to https://twitter.com/intent/tweet?text=All%20About%20Financial%20Statements&url=https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=pinterest
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2020%2F05%2FFotolia_110209139_S-693x675-1.jpg%3Ffit%3D867%252C541%26ssl%3D1&description=All%20About%20Financial%20Statements
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=skype
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fall-about-financial-statements%2F&lang=en-US=&source=jetpack
+14:35:54	Warning: 	Found for https://absoftindia.com/all-about-financial-statements/?share=email
+14:35:54	Warning: 	File has moved from https://absoftindia.com/all-about-financial-statements/?share=email to https://absoftindia.com/all-about-financial-statements/?shared=email&msg=fail
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=facebook
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F&t=How%20Computerised%20Accounts%20can%20Help%20your%20Business%20under%20GST
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=linkedin
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=jetpack-whatsapp
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=How%20Computerised%20Accounts%20can%20Help%20your%20Business%20under%20GST%20https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=twitter
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=twitter to https://twitter.com/intent/tweet?text=How%20Computerised%20Accounts%20can%20Help%20your%20Business%20under%20GST&url=https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=pinterest
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F&media=https%3A%2F%2Fi2.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fcropped-Untitled-design-3-1.png%3Ffit%3D96%252C96%26ssl%3D1&description=How%20Computerised%20Accounts%20can%20Help%20your%20Business%20under%20GST
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=skype
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fhow-computerised-accounts-can-help-your-business-under-gst%2F&lang=en-US=&source=jetpack
+14:35:55	Warning: 	Found for https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=email
+14:35:55	Warning: 	File has moved from https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?share=email to https://absoftindia.com/how-computerised-accounts-can-help-your-business-under-gst/?shared=email&msg=fail
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=facebook
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F&t=Why%20CAs%20should%20Insist%20their%20Clients%20to%20Maintain%20Computerized%20Accounts
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=linkedin
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=jetpack-whatsapp
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Why%20CAs%20should%20Insist%20their%20Clients%20to%20Maintain%20Computerized%20Accounts%20https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=twitter
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=twitter to https://twitter.com/intent/tweet?text=Why%20CAs%20should%20Insist%20their%20Clients%20to%20Maintain%20Computerized%20Accounts&url=https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=pinterest
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F&media=https%3A%2F%2Fi0.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fcorporatebuilding.jpg%3Ffit%3D1024%252C576%26ssl%3D1&description=Why%20CAs%20should%20Insist%20their%20Clients%20to%20Maintain%20Computerized%20Accounts
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=skype
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fgst-software%2F&lang=en-US=&source=jetpack
+14:35:59	Warning: 	Found for https://absoftindia.com/gst-software/?share=email
+14:35:59	Warning: 	File has moved from https://absoftindia.com/gst-software/?share=email to https://absoftindia.com/gst-software/?shared=email&msg=fail
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=facebook
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F&t=Key%20Features%20Of%20Tally%20That%20Business%20Owners%20Must%20Know
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=linkedin
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=jetpack-whatsapp
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=jetpack-whatsapp to https://api.whatsapp.com/send?text=Key%20Features%20Of%20Tally%20That%20Business%20Owners%20Must%20Know%20https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=twitter
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=twitter to https://twitter.com/intent/tweet?text=Key%20Features%20Of%20Tally%20That%20Business%20Owners%20Must%20Know&url=https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=pinterest
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F&media=https%3A%2F%2Fi0.wp.com%2Fabsoftindia.com%2Fwp-content%2Fuploads%2F2018%2F10%2Fadd-on-1.png%3Ffit%3D225%252C280%26ssl%3D1&description=Key%20Features%20Of%20Tally%20That%20Business%20Owners%20Must%20Know
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=skype
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=skype to https://web.skype.com/share?url=https%3A%2F%2Fabsoftindia.com%2Fkey-features-of-tally-that-business-owners-must-know%2F&lang=en-US=&source=jetpack
+14:36:01	Warning: 	Found for https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=email
+14:36:01	Warning: 	File has moved from https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?share=email to https://absoftindia.com/key-features-of-tally-that-business-owners-must-know/?shared=email&msg=fail
+
+HTTrack Website Copier/3.49-2 mirror complete in 19 minutes 16 seconds : 798 links scanned, 629 files written (49188199 bytes overall) [49031907 bytes received at 42415 bytes/sec], 963505 bytes transferred using HTTP compression in 43 files, ratio 27%, 4.0 requests per connection
+(5 errors, 324 warnings, 0 messages)

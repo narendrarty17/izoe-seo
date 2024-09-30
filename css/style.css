@@ -1,0 +1,3662 @@
+@media (min-width: 1024px) {
+    .cs-pad-iz {
+        padding-left: 1px !important;
+    }
+}
+@font-face {
+    font-family: lato-regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato-medium;
+    src: url(../fonts/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+body {
+    font-family: lato-regular;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: lato-bold !important;
+}
+
+
+/****** Header css Starts here *******/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0;
+    height: 70px;
+    display: inline-block;
+    z-index: 100;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+header.white_header {
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.2s ease-in-out;
+}
+
+header .navbar-brand {
+    display: contents;
+}
+
+header .navbar-brand img {
+    /*margin: -3px 0;*/
+    max-width: 14%;
+}
+
+header nav.navbar {
+    width: 100%;
+    position:relative;
+}
+/* get in touch */
+
+header nav.navbar .get_in_touch {
+    position:absolute;
+    top:0;
+    right:50px;
+}
+header nav.navbar .get_in_touch a {
+    position:relative;
+    color:#424242;
+    text-decoration:none;
+}
+header nav.navbar .get_in_touch a:hover{
+    color:#28a6ec;
+}
+header nav.navbar .get_in_touch a:after {
+    content: '\f095';
+    position: absolute;
+    top: 60%;
+    font-family: 'FontAwesome';
+    left: -15%;
+    transform: translateY(-50%);
+}
+
+/* end */
+header nav.navbar div.navbar-collapse ul {
+    width: auto;
+    position:relative;
+}
+
+header nav.navbar div.navbar-collapse ul li.nav-item {
+    padding: 0 15px;
+}
+
+header nav.navbar div.navbar-collapse ul li.nav-item.automated {
+    z-index: 1;
+}
+header nav.navbar div.navbar-collapse ul li.nav-item:hover:nth-of-type(2) ~ .active{
+    left:135px;
+    color: #28a6ec;
+    opacity:1;
+}
+header nav.navbar div.navbar-collapse ul li.nav-item:hover:nth-of-type(3) ~ .active{
+    left:227px;
+    color: #28a6ec;
+    opacity:1;
+}
+header nav.navbar div.navbar-collapse ul li.nav-item:hover:nth-of-type(4) ~ .active{
+    left:360px;
+    color: #28a6ec;
+    opacity:1;
+}
+
+header nav.navbar div.navbar-collapse ul .active{
+    position:absolute;
+    transform:translateX(-50%);
+    top:-10px;
+    left:227px;
+    opacity:0;
+    transition:all .2s;
+}
+.blog_access{
+    display:none;
+}
+header nav.navbar div.navbar-collapse ul li.nav-item a {
+    color: #424242;
+    text-decoration: none;
+}
+
+header nav.navbar div.navbar-collapse ul li.nav-item:hover a.dropdown-toggle {
+    color: #28a6ec;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-toggle:after {
+    position: absolute;
+    content: '\f105';
+    font-size: 16px;
+    font-family: "FontAwesome";
+    right: 0;
+    top: 20px;
+    border: none;
+    transform: rotate(90deg);
+}
+/* header nav.navbar div.navbar-collapse .automated .dropdown-toggle:after{
+    top: 12px;
+    right:-3px;
+} */
+header nav.navbar div.navbar-collapse .dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    margin:0;
+    top: 100%;
+    left: 0;
+    right: auto;
+    min-width: 150px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.3s step-end;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-menu .dropdown-item {
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-menu li:nth-of-type(1) .dropdown-item {
+    border-radius: 5px 5px 0 0;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-menu li:last-child .dropdown-item {
+    border-radius: 0 0 5px 5px;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-menu .dropdown-item:hover,
+header nav.navbar div.navbar-collapse .dropdown-menu .dropdown-item:focus,
+header nav.navbar div.navbar-collapse .dropdown-menu .dropdown-item:active {
+    background-color: #28a6ec;
+    color: #fff;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-submenu {
+    position: relative;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-submenu>a:after {
+    right: 20px;
+    top: 4px;
+    transform: rotate(0deg);
+}
+
+header nav.navbar div.navbar-collapse .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-submenu>.dropdown-menu li:nth-of-type(1) .dropdown-item {
+    border-radius: 5px 5px 0 0;
+}
+
+header nav.navbar div.navbar-collapse .dropdown-submenu>.dropdown-menu li:last-child .dropdown-item {
+    border-radius: 0 0 5px 5px;
+}
+
+
+
+/******** Header Hover Dropdown ********/
+
+.collapse ul li:hover>ul {
+    display: block
+}
+
+.collapse ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    display: none
+}
+
+.collapse ul ul li {
+    position: relative
+}
+
+.collapse ul ul li:hover>ul {
+    display: block
+}
+
+.collapse ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 250px;
+    display: none
+}
+
+.collapse ul ul ul li {
+    position: relative
+}
+
+.collapse ul ul ul li:hover ul {
+    display: block
+}
+
+.collapse ul ul ul ul {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    min-width: 250px;
+    display: none;
+    z-index: 1
+}
+
+
+/****** Header css Ends here *******/
+
+/****** Floating demo buton css Ends here *******/
+
+.floating_button .floating_demo{
+    position: fixed;
+    top:45%;
+    right:0;
+    z-index:100;
+    background:#4dbbc2;
+    transform:translateY(-50%);
+    border-radius:5px 0 0 5px;
+    border:2px solid #143e5f;
+    border-right:none;
+}
+.floating_button .floating_demo a{
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    color:#fff;
+    padding:10px;
+    text-decoration: none;
+    font-weight:600;
+    font-size:18px;
+}
+
+/****** Floating demo buton css Starts here *******/
+
+/****** Modal css Starts here *******/
+
+div#myModal {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:0 !important;
+}
+
+
+
+
+
+
+.solutions_banner_height_change {
+    height: 590px!important;
+}
+
+
+
+
+
+/****** Modal css Ends here *******/
+
+
+/****** Index css Starts here *******/
+
+
+/****** Banner css Starts here *******/
+
+section.banner #banner_carousel .carousel-inner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+section.banner #banner_carousel .carousel-indicators li {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item {
+    position: relative;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 40%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item.text_left .carousel-caption {
+    top: 50%;
+    left: 50px;
+    right: auto;
+    bottom: auto;
+    transform: translateY(-50%);
+    text-align:left;
+    width:650px;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 65px;
+    font-family: lato;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item.text_left.office_on_cloud .carousel-caption,
+section.banner #banner_carousel .carousel-inner .carousel-item.text_left.akounter_invoice .carousel-caption {
+    top: 60%;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item.text_left.office_on_cloud .carousel-caption h3 {
+    font-size: 50px;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption h3::after {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item.text_left .carousel-caption h3::after {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+    bottom: -20px;
+    left: 50px;
+}
+
+section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 25px;
+}
+section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption p.from_text{
+    font-size:18px;
+    text-align:right;
+}
+section.banner .scroll_arrow {
+    padding: 5px 0;
+    text-align: center;
+}
+
+section.banner .scroll_arrow img {
+    width: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+section.banner .scroll_arrow img:hover {
+    opacity: 1;
+}
+
+
+/****** Banner css Ends here *******/
+
+
+/****** Why Us css Starts here *******/
+
+section.why_us {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: inline-block;
+    font-family: lato-medium;
+}
+
+section.why_us h2 {
+    color: #143e5f;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+section.why_us h2:after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: #1ca3c9;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.why_us p {
+    font-size: 18px;
+    padding: 0 45px;
+}
+
+
+/****** Why Us css Ends here *******/
+
+
+/****** Our Mantra css Starts here *******/
+
+section.our_mantra {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-family: lato-medium;
+}
+
+section.our_mantra .mantras_heading {
+    text-align: left;
+    padding-left: 30px;
+}
+
+section.our_mantra h2 {
+    color: #143e5f;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+section.our_mantra h2:after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: #80c228;
+    bottom: -20px;
+    left: 0;
+}
+
+section.our_mantra p {
+    font-size: 18px;
+    padding: 0 45px;
+}
+
+section.our_mantra .col-md-6 {
+    margin: 0 auto;
+}
+
+section.our_mantra .mantras .mantra_tab {
+    padding: 0px 5px;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_image {
+    padding-bottom: 15px;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_image img {
+    width: 65px;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_heading{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_heading h3 {
+    font-size: 25px;
+    color: #143e5f;
+    text-transform: uppercase;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_heading span{
+    color:#143e5f;
+    font-family:lato-bold;
+    text-transform:capitalize;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul li {
+    padding: 10px 0;
+    position: relative;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul li:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: #80c228;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul li:last-child:after {
+    height: 0;
+    width: 0;
+}
+
+
+/****** Our Mantra css Ends here *******/
+
+
+/****** Who we are css Starts here *******/
+
+section.who_we_are {
+    padding: 50px 0;
+    width: 100%;
+    display: inline-block;
+    font-family: lato-medium;
+}
+
+section.who_we_are .col-lg-8 {
+    align-items: center;
+    display: inherit;
+}
+
+section.who_we_are h2 {
+    color: #143e5f;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+section.who_we_are h2:after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: #ef511a;
+    bottom: -20px;
+    left: 0;
+}
+
+section.who_we_are p {
+    font-size: 18px;
+    padding: 0;
+}
+
+section.who_we_are a {
+    color: #ef511a !important;
+    text-decoration:none;
+    border: 1px solid #ef511a;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 15px 0 0 0;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+section.who_we_are a:hover {
+    color: #fff !important;
+    background-color: #ef511a;
+}
+
+section.who_we_are .who_we_are_image img {
+    width: 100%;
+}
+
+
+/****** Who we are css Ends here *******/
+
+
+/****** Customers css Starts here *******/
+
+section.customers {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    font-family: lato-medium;
+}
+
+section.customers h2 {
+    color: #143e5f;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+section.customers h2:after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: #f5bc10;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.customers .owl-carousel {
+    position: relative;
+}
+
+section.customers .owl-carousel .item {
+    position: relative;
+    background-color: transparent;
+    height: 170px;
+}
+
+section.customers .owl-carousel .item img {
+    max-width: 85%;
+    position: absolute;
+    filter:grayscale(1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.customers .owl-carousel .owl-dots {
+    display: none;
+}
+
+section.customers .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -4%;
+    font-size: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+section.customers .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -4%;
+    font-size: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+section.customers .owl-carousel .owl-nav button span {
+    padding: 5px 10px;
+}
+
+section.customers .owl-theme .owl-nav [class*=owl-] {
+    color: #ccc;
+}
+
+section.customers .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+    color: #869791;
+}
+
+
+/****** Customers css Ends here *******/
+
+
+/****** Index css Ends here *******/
+
+
+/****** Footer css Starts here *******/
+
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+footer .upper_footer {
+    padding: 70px 0 45px;
+}
+
+footer .upper_footer h3 {
+    font-size: 19px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+footer .upper_footer h3:after {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #28a6ec;
+    bottom: -15px;
+    left: 0;
+}
+
+footer .upper_footer p {
+    font-size: 14px;
+}
+
+footer .upper_footer .social_icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+footer .upper_footer .social_icons a.fb:hover {
+    color: #3b5997;
+}
+
+footer .upper_footer .social_icons a.twitter:hover {
+    color: #20b8ff;
+}
+
+footer .upper_footer .social_icons a.google_plus:hover {
+    color: #d21a1a;
+}
+
+footer .upper_footer .social_icons a.linkedin:hover {
+    color: #1686b0;
+}
+
+footer .upper_footer .recent_posts h4 {
+    font-size: 16px;
+}
+
+footer .upper_footer .recent_posts a {
+    transition: all 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .upper_footer .recent_posts a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+footer .upper_footer .services ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer .upper_footer .services ul li {
+    padding: 5px 0;
+}
+
+footer .upper_footer .services ul li a {
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .upper_footer .services ul li a:hover {
+    color: #28a6ec;
+}
+
+footer .upper_footer .contact_us ul {
+    padding: 0;
+    list-style-type: none;
+    ;
+}
+
+footer .upper_footer .contact_us ul li a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    font-family: 'FontAwesome';
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+footer .upper_footer .contact_us ul li.address a:after {
+    content: '\f041';
+}
+
+footer .upper_footer .contact_us ul li.mobile a:after {
+    content: '\f095';
+}
+
+footer .upper_footer .contact_us ul li.email a:after {
+    content: '\f003';
+}
+
+footer .upper_footer .contact_us ul li a {
+    padding-left: 30px;
+    margin-bottom:10px;
+    color:#fff;
+    text-decoration:none;
+    display:inline-block;
+    position: relative;
+}
+
+footer .upper_footer .contact_us ul li i {
+    float: left;
+}
+
+footer .lower_footer {
+    padding: 25px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .lower_footer p{
+    margin:0;
+}
+
+
+/****** Footer css Ends here *******/
+
+
+/****** Solutions css Starts here *******/
+
+section.solutions_banner.automation_anywhere {
+    background-image: url(../images/solutions_banner.jpg);
+    background-position-y: bottom;
+    background-size: cover;
+    position: relative;
+    height: 445px;
+}
+section.solutions_banner.tally-mob-banner.png {
+    background-image: url(../images/tally-mob-banner.png);
+    background-position-y: bottom;
+    background-size: cover;
+    position: relative;
+    height: 445px;
+}
+section.solutions_banner.task_m {
+    background-image: url(../images/t-m.webp);
+    background-position-y: inherit;
+    background-size: cover;
+    position: relative;
+    height: 550px;
+}
+section.solutions_banner.time_m {
+    background-image: url(../images/time-m.jpg);
+    background-position-y: inherit;
+    background-size: cover;
+    position: relative;
+    height: 530px;
+}
+section.solutions_banner.akounterhr {
+    background-image: url(../images/akounter-cover-new.png);
+    background-position: inherit;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+section.solutions_banner.office_on_cloud {
+    background-image: url(../images/office_on_cloud_banner_website_center.jpg);
+    background-position: center;
+}
+section.solutions_banner.office_on_cloud.tally_on_cloud {
+    background-image: url(../images/banner_for_site.png);
+    background-position: center;
+}
+
+section.solutions_banner.akounter_invoice {
+    background-image: url(../images/akounter_invoice_banner_website_center.png);
+    background-position: top;
+}
+
+section.solutions_banner.cyber_security {
+    background-image: url(../images/cyb_banner.svg);
+    background-position: right;
+}
+
+section.solutions_banner.banner_happay {
+    background-image: url(../images/happay_carousal.jpg);
+    background-position-y: inherit;
+}
+section.solutions_banner.ak_web {
+    background-image: url(../images/akounter-web-banner.jpg);
+    background-position-y: inherit;
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /*height: 445px;*/
+}
+
+section.solutions_banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+section.solutions_banner.light_overlay:before{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+section.solutions_banner.light_overlay:after{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+section.solutions_banner .play_btn {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    left: 75%;
+    font-size: 150px;
+    font-weight: 100;
+    transform: translate(-50%, -50%);
+}
+
+section.solutions_banner .play_btn:hover {
+    opacity: 0.7;
+}
+
+section.solutions_banner .banner_content {
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    z-index: 1;
+    text-align: left;
+    max-width: 650px;
+    color: #fff;
+}
+
+
+
+
+/***********   TIME MANAEMENT CSS      ************/
+section.time_m .banner_content h1 {
+    font-size: 31px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 120px;
+}
+
+section.solutions_banner .banner_content h1:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+    left: 0;
+    bottom: -15%;
+}
+
+section.time_m{
+    background-color: lightgrey;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.time_m .intro_heading {
+    color: #000;
+    /*padding-right: 100px;*/
+    border-right: 3px solid rgb(128 194 40);
+}
+
+section.time_m .intro_heading h2 {
+    /*padding-top: 50px;*/
+    text-align: center;
+    font-size:40px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+
+    
+}
+
+section.time_m .intro_heading h2:after{
+    position: absolute;
+    content: "";
+    background-color: rgb(128 194 40);
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+
+    transform: translateX(-50%);
+}
+
+section.time_m .intro_text p {
+    font-size: 18px;
+}
+
+/*section.time_m .intro_heading {
+    color: #000;
+    padding-right: 100px;
+    border-right: 3px solid rgb(128 194 40);
+}*/
+
+
+section.time_m .intro_text p {
+    font-weight: 900;
+}
+
+section.request_a_demo .time_m h2{
+    margin-bottom:0;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: white;
+}
+section.request_a_demo a{
+    padding:15px 20px;
+    background-color:#fff;
+    color:#000;
+    text-decoration:none;
+    font-weight:600;
+}
+
+section.explained_intro .time_m img{
+    width: 60% ;
+    margin-left:200px;
+}
+
+section.explained_intro .time_m   h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 45px;
+    color: #143e5f;
+}
+
+section.explained_intro .time_m  h2:after {
+    position: absolute;
+    content: "";
+    background-color: #d21a1a;
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+section.explained_intro .time_m p{
+    font-size: 18px;
+}
+
+section.explained_intro .time_m ul li{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+section.request_a_demo .time_m .center_btn{
+    margin-top: 20px;
+}
+
+section.explained_intro .time_m .explained_intro_tab .intro_text{
+   /*border: 1px solid black;*/
+   border-radius: 10px;
+    box-shadow:  0 0 10px -2px #ccc;
+}
+
+section.assistance{
+    background-color: lightgrey;
+    height: 200px;
+}
+
+section.assistance .b_r{
+    border-right: solid 3px rgb(128 194 40);
+    height: 150px;
+    margin-top: 30px;
+}
+
+section.assistance .time_m h2{
+    /*margin-left: 130px;*/
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #143e5f;
+    padding: 20px;
+    position:relative;
+
+}
+
+section.assistance .time_m h2:after{
+    /*margin-left: 130px;*/
+    position: absolute;
+    content: '';
+    background-color: rgb(128 194 40);
+    width: 60px;
+    height: 3px;
+    left: 40%;
+    bottom: -15px;
+
+}
+
+
+
+section.assistance p{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+section.explained_intro .time_m .intro_tabs{
+    border-radius: 8px;
+    margin: 0.5%;
+    box-shadow: 0 0 10px -2px #ccc;
+}
+/***********    END TIME MANAGEMENT CSS     ************/
+
+
+
+
+   
+
+/******  OCR ******/
+
+section.ocr .banner_content h1{
+     font-size: 65px;
+    text-transform: uppercase;
+    position: relative;
+    /*margin-top: 120px;*/
+}
+
+section.ocr .banner_content h1:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+    left: 0;
+    bottom: -0.5%;
+}
+
+section.ocr .case_study_tabs .case_study_tab .case_study_tab_heading h2  {
+    font-size: 20px;
+}
+
+section.ocr .case_study_tabs .case_study_tab .case_study_tab_heading h2 a {
+    color: #143e5f;
+}
+
+/*section.brief_intro .ocr{
+    background-color: grey;
+}*/
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading h2 a:hover {
+    text-decoration: underline;
+}
+
+section.solutions_banner .banner_content p {
+    font-size: 18px;
+}
+
+section.options_band {
+    background-color: #000;
+}
+
+section.options_band ul {
+    padding: 20px 0;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    display:flex;
+    justify-content:space-around;
+}
+
+section.options_band ul li {
+    float: left;
+    width: 50%;
+}
+
+section.options_band ul li a {
+    position: relative;
+    cursor: pointer;
+}
+
+section.options_band ul li a:after {
+    position: absolute;
+    content: '\f103';
+    color: #fff;
+    font-size: 17px;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "FontAwesome";
+}
+
+section.brief_intro {
+    padding: 50px 0;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.brief_intro .intro_heading {
+    color: #000;
+    padding-right: 100px;
+    border-right: 2px solid #f5bc10;
+}
+
+section.brief_intro .intro_heading h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.brief_intro .intro_heading h3:after {
+    position: absolute;
+    content: '';
+    background-color: #f5bc10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+/******* TASK MANAGEMENT CSS    ******/
+section.task_m{
+    background-color: lightgrey;
+}
+
+section.task_m .banner_content h1 {
+    font-size: 31px;
+    text-transform: uppercase;
+    position: relative;
+   
+    margin-top: 130px;
+}
+
+
+.image img{
+    width: 60%;
+    margin-left: 180px;
+    margin-top: -50px;
+}
+
+section.task_m h2{
+     font-size: 30px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    line-height: 150%;
+    
+    position: relative;
+    color: #143e5f;
+}
+
+section.highlights {
+    background-color: lightgrey;
+}
+
+section.highlights .intro_heading{
+    border-right: 3px solid rgb(128 194 40);
+    height: 400px;
+    margin: 20px 0
+}
+
+section.highlights .intro_text{
+    padding-top: 30px;
+}
+
+section.highlights .time_m h2{
+    color: rgb(20 62 95);
+    padding-top: 60px;
+    /*text-align: center;*/
+    margin-left: -30px;
+    position:relative;
+}
+
+section.highlights .time_m h2:after{
+     position: absolute;
+    content: '';
+    background-color: rgb(128 194 40);
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+section.task_m .intro_heading{
+    border-right: 3px solid #f5bc10;
+    height: 400px;
+  /*  margin-top: 10px;
+    margin-bottom: 10px;*/
+    margin: 10px 0;
+}
+
+section.task_m .intro_heading h2:after {
+    position: absolute;
+    content: '';
+    background-color: #f5bc10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+/*section.task_m .intro_heading h2{
+    position: absolute;
+    content: '';
+    background-color: #f5bc10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}*/
+
+
+/*section.brief_intro .intro_heading h2 {
+    margin-top: -30px;
+    font-size: 30px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    line-height: 150%;
+    
+    position: relative;
+    color: #143e5f;
+}
+*/
+/*section.brief_intro .intro_heading h2:after {
+    position: absolute;
+    content: '';
+    background-color: #f5bc10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}*/
+
+section.brief_intro .intro_text p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+section.brief_intro .intro_text p.bold_text {
+    font-weight: 900;
+}
+
+section.brief_intro .intro_text ul li {
+    font-size: 18px;
+}
+
+section.our_expertise {
+    padding: 50px 150px;
+    background-color: #fafafa;
+    text-align: center;
+}
+section.our_expertise.office_on_cloud{
+    padding:50px 150px 0;
+}
+
+section.our_expertise h3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 45px;
+    color: #143e5f;
+}
+
+section.our_expertise h3:after {
+    position: absolute;
+    content: "";
+    background-color: #d21a1a;
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+section.our_expertise p {
+    color: #3c3c3c;
+    font-size: 20px;
+}
+
+section.our_expertise img{
+    width:60%;
+}
+
+section.case_studies .case_study_tabs {
+    padding: 50px 0;
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+section.case_studies .case_study_tabs h2 {
+    color: #143e5f;
+    font-size: 36px;
+    margin-bottom: 50px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+section.case_studies .case_study_tabs h2:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #ef511a;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+
+section.case_studies .case_study_tabs .case_study_tab {
+    width: 32%;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 10px -2px #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 25px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab:hover {
+    box-shadow: 0 0 20px 0 #ccc;
+}
+
+section.case_studies .case_study_tabs .case_study_tab:nth-of-type(3n+2) {
+    margin: 0 2% 25px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_image img {
+    width: 100%;
+    height: 200px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading {
+    padding: 15px 20px 20px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading h4 a {
+    color: #143e5f;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading h4 a:hover {
+    text-decoration: underline;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_text {
+    padding: 0 15px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_text p {
+    font-size: 16px;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_link {
+    padding: 20px 20px 40px;
+    text-align: left;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_link a {
+    color: #000;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_link a:hover {
+    opacity: 1;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_date {
+    text-align: left;
+    padding: 0 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+section.case_studies .case_study_tabs .case_study_tab .case_study_tab_date p {
+    font-size: 14px;
+    color: #ccc;
+    font-style: italic;
+}
+
+section.explained_intro {
+    padding: 50px 0;
+}
+
+section.explained_intro img{
+    width:50%;
+    margin:25px auto;
+    display:inherit;
+}
+section.explained_intro .explained_intro_text {
+    padding-bottom: 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+section.explained_intro .explained_intro_text h3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 45px;
+    color: #143e5f;
+}
+
+section.explained_intro .explained_intro_text h3:after {
+    position: absolute;
+    content: "";
+    background-color: #d21a1a;
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+section.explained_intro .explained_intro_text p {
+    font-size: 18px;
+    text-align: center;
+}
+
+section.explained_intro .explained_intro_text ul li {
+    font-size: 17px;
+}
+section.explained_intro .explained_intro_text .explained_intro_tab{
+    text-align: center;
+    border-radius: 8px;
+    margin: 0.5%;
+    float: left;
+    width: 49%;
+    padding: 15px;
+    box-shadow: 0 0 10px -2px #ccc;
+}
+
+section.explained_intro .explained_intro_text .explained_intro_tab.akounter_cloud{
+    text-align: center;
+    border-radius: 8px;
+    margin: 0.5%;
+    float: left;
+    width: 49%;
+    padding: 15px;
+    box-shadow: 0 0 10px -2px #ccc;
+}
+section.explained_intro .explained_intro_text .explained_intro_tab.akounter_cloud ul{
+    text-align:left;
+    padding-left:80px;
+}
+section.explained_intro .explained_intro_text .explained_intro_tab h4{
+    color: #143e5f;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    position:relative;
+}
+
+section.explained_intro .explained_intro_text .explained_intro_tab h4:after {
+   
+    position: absolute;
+    content: "";
+    background-color: #d21a1a;
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+}
+
+section.explained_intro .explained_intro_text .explained_intro_tab ul{
+    text-align:left;
+    padding-left:80px;
+}
+
+section.explained_intro .explained_intro_text .explained_intro_tab ul li{
+    margin-bottom:5px;    
+}
+
+
+section.explained_intro .intro_tabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding:15px 0;
+}
+
+section.explained_intro .intro_tab {
+    box-shadow: 0 0 10px -2px #ccc;
+    border-radius: 8px;
+    padding: 30px 22px 15px;
+    text-align: center;
+    width: 32%;
+    transition: all 0.2s ease-in-out;
+    margin:15px 0;
+}
+
+section.explained_intro .intro_tab:nth-child(3n+2){
+    margin: 15px 2%;
+}
+
+section.explained_intro .intro_tab i {
+    color: #80c228;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+section.explained_intro .intro_tab h4 {
+    font-size: 24px;
+    color: #143e5f;
+    margin-bottom: 20px;
+}
+
+section.explained_intro .intro_tab p {
+    font-size: 18px;
+}
+
+section.explained_intro .intro_tab img{
+    width:70px;
+    height:70px;
+    margin:0 auto 25px;
+}
+
+/****** Solutions css Ends here *******/
+/******* Contanct Us form - banner ********/
+
+section.solutions_banner .banner_content.contact_us {
+    top: 20%;
+    left: 40px;
+}
+
+section.solutions_banner .banner_content.contact_us.right {
+    right: 40px;
+    left:auto;
+}
+
+section.solutions_banner .banner_content.contact_us h2 {
+    font-size: 50px;
+}
+
+section.solutions_banner .banner_content.contact_us.right h2 {
+    text-align:right;
+}
+section.solutions_banner .banner_content.contact_us h2:after{
+    width:60px;
+    height:3px;
+}
+section.solutions_banner .banner_content.contact_us.right h2:after{
+    right:0;
+    left:auto;
+}
+
+section.solutions_banner .banner_content.contact_us form {
+    width: 50%;
+    text-align: center;
+}
+section.solutions_banner .banner_content.contact_us.right form {
+    margin-left:50%
+}
+
+section.solutions_banner .banner_content.contact_us form input,
+section.solutions_banner .banner_content.contact_us form textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(255,255,255, 0.75);
+    /* box-shadow: inset 1px 1px 4px 1px #444; */
+    outline: none;
+    color: #000;
+    border: none;
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+section.solutions_banner .banner_content.contact_us form textarea {
+    resize: none;
+    height: 85px;
+}
+
+section.solutions_banner .banner_content.contact_us form input.submit {
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+section.solutions_banner .banner_content.contact_us form input.submit:hover {
+    box-shadow: 1px 1px 8px 1px #444;
+}
+
+/************/
+
+/****** About Us css Starts here *******/
+
+section.solutions_banner.about_us_banner {
+    background-image: url(../images/about_us_banner.jpg);
+    background-position-y: center;
+}
+
+section.solutions_banner.request_banner {
+    background-image: url(../images/request.png);
+    height:300px;
+    background-position-y: center;
+}
+
+section.solutions_banner.about_us_banner:after {
+    background-color: transparent;
+}
+section.solutions_banner.about_us_banner .banner_content{
+    top:40%;
+    right:40px;
+    left:auto;
+}
+
+
+section.our_vision .our_vision_image {
+    padding: 50px;
+}
+
+section.our_vision .our_vision_image img {
+    width: 100%;
+}
+
+section.our_vision .our_vision_text {
+    padding: 80px 100px 50px 50px;
+}
+
+section.our_vision .our_vision_text h3 {
+    font-size: 36px;
+    position: relative;
+    color: #143e5f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+section.our_vision .our_vision_text h3:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #80c228;
+    left: 0;
+    bottom: -15px;
+}
+
+section.our_vision.our_mission {
+    background-color: #fafafa;
+}
+
+section.our_vision .our_vision_text.our_mission_text h3:after {
+    background-color: #f5bc10;
+}
+
+section.our_vision .our_vision_text p {
+    font-size: 16px;
+}
+
+section.careers {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.careers h3 {
+    color: #143e5f;
+    font-size: 36px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+section.careers h3:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #ef511a;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+
+section.careers p {
+    padding: 25px 140px 0;
+    font-size: 18px;
+}
+
+section.careers a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 30px;
+    border: 2px solid #ef511a;
+    border-radius: 50px;
+    color: #ef511a !important;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+section.careers a:hover {
+    background-color: #ef511a;
+    color: #fff !important;
+}
+
+
+/****** About Us css Ends here *******/
+
+
+/****** Blog css Starts here *******/
+
+section.solutions_banner.blog_banner {
+    background-image: url(../images/blog_banner.jpg);
+    background-position-y: center;
+}
+
+section.solutions_banner.blog_banner:after {
+    background-color: transparent;
+}
+
+section.blogs .blog_tabs {
+    padding: 50px 0;
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+section.blogs .blog_tabs h2 {
+    color: #143e5f;
+    font-size: 36px;
+    margin-bottom: 50px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+section.blogs .blog_tabs h2:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #ef511a;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+
+section.blogs .blog_tabs .blog_tab {
+    width: 32%;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 10px -2px #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 25px;
+}
+
+section.blogs .blog_tabs .blog_tab:hover {
+    box-shadow: 0 0 20px 0 #ccc;
+}
+
+section.blogs .blog_tabs .blog_tab:nth-of-type(3n+2) {
+    margin: 0 2% 25px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_image img {
+    width: 100%;
+    height: 200px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_icon {
+    height: 100px;
+    width: 100px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_icon img {
+    position: absolute;
+    max-width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_author {
+    color: #929292;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_author a {
+    cursor: pointer;
+    color: #929292;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_author a:hover {
+    text-decoration: underline;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_heading {
+    padding: 5px 20px 20px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_heading h4 a {
+    color: #143e5f;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_heading h4 a:hover {
+    text-decoration: underline;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_text {
+    padding: 0 15px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_text p {
+    font-size: 16px;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_date {
+    text-align: left;
+    padding: 0 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+section.blogs .blog_tabs .blog_tab .blog_tab_date p {
+    font-size: 14px;
+    color: #ccc;
+    font-style: italic;
+}
+
+
+/****** Blog css Ends here *******/
+
+
+/****** Automation Anywhere css Starts here *******/
+
+section.solutions_banner a.site_logo{
+    width: 200px;
+    height: auto;
+    display: block;
+    right: 10px;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+section.solutions_banner a.site_logo img{
+    width:100%;
+}
+section.solutions_banner.automation_anywhere {
+    background-image: url(../images/automation_anywhere_banner.jpg);
+    background-position-y: inherit;
+}
+
+section.solutions_banner.tally_mobile {
+    background-image: url(../images/tally-mob-banner.png);
+    background-position-x: right;
+}
+section.solutions_banner.tally_mobile .tally_on_mob_btn {
+    display:none;
+}
+
+section.souutions_banner.tally_mobile .banner_content{
+    max-width: 900px;
+    top: 35%;
+}
+section.solutions_banner.automation_anywhere .banner_content {
+    max-width: 900px;
+    top: 35%;
+}
+
+section.solutions_banner.automation_anywhere .site_link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+    display: flex;
+}
+
+section.solutions_banner.automation_anywhere .site_link a {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+section.solutions_banner.automation_anywhere .site_link a:hover {
+    font-size: 17px;
+}
+
+section.solutions_banner.automation_anywhere .site_link a i {
+    padding-left: 15px;
+}
+
+section.solutions_banner.akounterhr .site_link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+    display: flex;
+}
+
+section.solutions_banner.akounterhr .site_link a {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+section.solutions_banner.akounterhr .site_link a:hover {
+    font-size: 17px;
+}
+
+section.solutions_banner.akounterhr .site_link a i {
+    padding-left: 15px;
+}
+
+section.future_tabs {
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+section.future_tabs h3 {
+    font-size: 36px;
+    position: relative;
+    color: #143e5f;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+section.future_tabs h3:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #f5bc10;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+section.future_tabs h4 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+section.future_tabs .future_tab {
+    margin-bottom: 40px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+section.future_tabs .col-md-4,
+section.future_tabs .col-sm-6 {
+    margin: 0 auto;
+}
+
+section.future_tabs .future_tab .future_tab_content {
+    margin-bottom: 40px;
+}
+
+section.future_tabs .future_tab .future_tab_content .choiceimg {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin: 0 auto 25px;
+}
+
+section.future_tabs .future_tab .future_tab_content .choiceimg img {
+    width: 75%;
+}
+
+section.future_tabs.akounter_cloud .future_tab .future_tab_content .choiceimg img {
+    width: 80%;
+}
+
+section.future_tabs .future_tab .future_tab_content span.title {
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    text-transform: none;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #143e5f;
+    border-bottom: 1px solid #aaa;
+}
+
+section.future_tabs .future_tab .future_tab_content .content.next {
+    min-height: 180px;
+}
+
+section.brief_intro .solutions_list {
+    padding: 25px 30px 15px;
+}
+
+section.brief_intro .solutions_list h4 {
+    font-size: 24px;
+    color: #143e5f;
+    margin-bottom: 20px;
+}
+
+section.brief_intro .solutions_list ul {
+    list-style-type: none;
+    font-size: 17px;
+}
+
+section.brief_intro .solutions_list li {
+    position: relative;
+    padding: 7px 0;
+}
+
+section.brief_intro .solutions_list li:after {
+    content: '\f101';
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #fcc718, #f05e27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+/****** Automation Anywhere css Ends here *******/
+/******  HAPPAY css Starts here *******/
+
+section.automation_anywhere h1{
+    font-size: 55px;
+}
+
+section.happay_banner h1{
+    font-size: 40px;
+}
+section.banner_happay h1{
+    font-size: 55px;
+    position: relative;
+}
+
+section.banner_happay p{
+    padding: 20px 0;
+}
+
+section.solutions_banner.banner_happay .site_link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+    display: flex;
+}
+
+section.solutions_banner.banner_happay .site_link a {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+section.future_tabs .happay h2 {
+    font-size: 36px;
+    position: relative;
+    color: #143e5f;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+section.future_tabs .happay h2:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #EE687C;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+section.future_tabs .happay .future_tab_content{
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px -2px #ccc;
+}
+
+section.brief_intro .happay .intro_heading {
+    color: #000;
+    padding-right: 100px;
+    border-right: 2px solid #EE687C;
+}
+
+section.brief_intro .happay .intro_heading h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.brief_intro .happay .intro_heading h2:after {
+    position: absolute;
+    content: '';
+    background-color: #EE687C;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+section.brief_intro .happay .solutions_list  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.brief_intro .happay .solutions_list li:after {
+    content: '\f101';
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #EE687C, #f05e27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+/******* HAPPY css Ends here  ********/
+
+/******* Teamogy css Starts Here   ******/
+
+section.teamogy{
+    background-image: url(../images/teamogy_carousal.jpg);
+    background-position-y: inherit;
+}
+
+section.teamogy h1{
+    font-size: 40px;
+    position: relative;
+}
+
+section.teamogy  p {
+    font-size: 18px;
+    padding: 20px 0 ;
+}
+
+section.solutions_banner.teamogy .site_link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+    display: flex;
+}
+
+section.solutions_banner.teamogy .site_link a {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    }
+
+section.future_tabs .teamogy h2 {
+    font-size: 36px;
+    position: relative;
+    color: #143e5f;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+section.future_tabs .teamogy h2:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #e05c10;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+section.brief_intro .teamogy .intro_heading {
+    color: #000;
+    padding-right: 100px;
+    border-right: 2px solid #e05c10;
+    }
+
+    section.brief_intro .teamogy .intro_heading  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.brief_intro .teamogy .intro_heading h2:after {
+    position: absolute;
+    content: '';
+    background-color: #e05c10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+section.brief_intro .teamogy .solutions_list  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.explained_intro .teamogy{
+    background-color: #efefef;
+    padding: 50px 150px;
+    /*background-color: #fafafa;*/
+    text-align: center;
+
+}
+
+section.explained_intro .teamogy h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 150%;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+    text-align: center;
+}
+
+section.explained_intro .teamogy  h2:after {
+    position: absolute;
+    content: '';
+    background-color: #e05c10;
+    width: 60px;
+    height: 3px;
+    left: 45%;
+    top: 80%;
+    bottom: -15px;
+}
+
+section.explained_intro .teamogy  p {
+    font-size: 20px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+section.brief_intro .teamogy .solutions_list li:after {
+    content: '\f101';
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 22%;
+    left: -15px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #e05c10, #f05e27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+/******* Teamogy css ends Here   *******/
+
+/***** AKOUNTER INVOICE css Starts here   *****/
+
+section.akounter_invoice .banner_content h1{
+    font-size: 40px;
+    position: relative;
+}
+
+section.akounter_invoice .banner_content h1:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+    left: 0;
+    bottom: -15%;
+}
+
+section.akounter_invoice .banner_content p{
+    padding: 20px 0;
+}
+
+section.brief_intro .akounter_invoice .intro_heading {
+    color: #000;
+    padding-right: 100px;
+    border-right: 2px solid #f5bc10;
+    }
+
+section.brief_intro .akounter_invoice .intro_heading h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #143e5f;
+}
+
+section.brief_intro .akounter_invoice .intro_heading h2:after {
+    position: absolute;
+    content: '';
+    background-color: #f5bc10;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+}
+
+
+section.explained_intro .akounter_invoice .explained_intro_text h2 {
+    position:relative;
+    font-size: 30px;
+    color: #143e5f;
+    margin-bottom: 10px;
+}
+
+section.request_a_demo .akounter_invoice h2{
+    font-size: 28px;
+    color: white;
+   }
+
+section.request_a_demo .akounter_invoice .center a {
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section.explained_intro .akounter_invoice .intro_tabs {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding:15px 0;
+    justify-content: center;
+}
+
+section.explained_intro .akounter_invoice .explained_intro_text h2:after{
+     position: absolute;
+    content: "";
+    background-color: #d21a1a;
+    width: 55px;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+section.explained_intro .akounter_invoice .intro_tabs .intro_tab h2{
+    font-size: 22px;
+    color: #143e5f;
+    padding-bottom: 20px;
+}
+
+section.explained_intro .akounter_invoice .intro_tabs .intro_tab ul li{
+    color: #3c3c3c;
+    font-size: 17px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+/******  AKOUNTER INVOICE css Ends here   ******/
+
+
+/****** Vena css Starts here *******/
+
+section.solutions_banner.automation_anywhere.vena {
+    background-image: url(../images/vena_banner.jpg);
+    background-position-y: bottom;
+}
+
+section.solutions_banner.automation_anywhere.vena:after {
+    background-color: transparent;
+}
+
+section.future_tabs.vena_tabs {
+    padding: 50px 0;
+}
+
+section.future_tabs.vena_tabs h3:after {
+    background-color: #80c228;
+}
+
+section.future_tabs.vena_tabs .vena_tab {
+    padding: 0 30px;
+}
+
+section.future_tabs.vena_tabs .vena_tab .choiceimg {
+    width: 100px;
+    height: 100px;
+}
+
+section.future_tabs.vena_tabs .vena_tab .choiceimg img {
+    width: 95%;
+}
+
+section.future_tabs.vena_tabs .vena_tab span.title {
+    border: none;
+    padding-bottom: 10px;
+}
+
+section.brief_intro.vena_solutions .intro_heading {
+    border-right: 2px solid #80c228;
+}
+
+section.brief_intro.vena_solutions .intro_heading h3:after {
+    background-color: #80c228;
+}
+
+section.brief_intro.vena_solutions .solutions_list ul li:after {
+    background: linear-gradient(to right, #80c228, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/****** Vena css Ends here *******/
+
+
+/****** Mastersoft css starts here *******/
+
+section.solutions_banner.mastersoft {
+    background-image: url(../images/mastersoft_banner.jpg);
+    background-position-y: inherit;
+}
+
+section.future_tabs.ccms_tabs h3:after {
+    background-color: #e5723c;
+}
+
+section.future_tabs.ccms_tabs .future_tab .future_tab_content .choiceimg {
+    width: 100%;
+    height: auto;
+}
+
+section.future_tabs.ccms_tabs .future_tab .future_tab_content .choiceimg i {
+    font-size: 45px;
+    color: #e5723c;
+}
+
+section.brief_intro.ccms_intro .intro_heading {
+    border-color: #e5723c;
+}
+
+section.brief_intro.ccms_intro .intro_heading h3:after {
+    background-color: #e5723c;
+}
+
+section.brief_intro.ccms_intro .solutions_list ul li:after {
+    background: linear-gradient(to right, #e5723c, #f05e27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/****** Mastersoft css starts here *******/
+
+section.request_a_demo{
+    padding:100px 0;
+    background-image:linear-gradient(to top right, #45BFC7 0%, #153d4a 100%);
+}
+section.request_a_demo h4{
+    margin-bottom:0;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: white;
+}
+
+section.request_a_demo .center_btn{
+    margin-top: 20px;
+}
+section.request_a_demo a{
+    padding:15px 20px;
+    background-color:#fff;
+    color:#000;
+    text-decoration:none;
+    font-weight:600;
+}
+
+
+
+/********* Media Query ***********/
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1366px;
+    }
+}
+
+@media(min-width:1500px) {
+    header .navbar-brand img {
+        max-width: 12%;
+    }
+}
+
+@media(max-width:1024px) {
+    header .navbar-brand img {
+        margin: -30px 0;
+    }
+    section.solutions_banner.akounter_invoice{
+        height:425px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 60px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 23px;
+    }
+    section.solutions_banner .banner_content {
+        max-width: 500px;
+    }
+    section.solutions_banner .banner_content h2 {
+        font-size: 60px;
+    }
+    section.solutions_banner .play_btn {
+        left: 78%;
+        font-size: 125px;
+    }
+    section.our_expertise {
+        padding: 50px 100px;
+    }
+    section.our_expertise.office_on_cloud{
+        padding:50px 100px 0;
+    }
+}
+
+@media(max-width:991px) {
+    header {
+        height: auto;
+        background-color: #fff;
+    }
+    header nav.navbar div.navbar-collapse .dropdown-menu {
+        background-color: #fff;
+        position: static;
+    }
+    header nav.navbar div.navbar-collapse .dropdown-submenu>a:after {
+        top: 16px;
+        transform: rotate(90deg);
+    }
+    header nav.navbar div.navbar-collapse .dropdown-submenu>.dropdown-menu li:nth-of-type(1) .dropdown-item {
+        border-radius: 0;
+    }
+    header nav.navbar div.navbar-collapse .dropdown-submenu>.dropdown-menu li:last-child .dropdown-item {
+        border-radius: 0;
+    }
+    .dropdown-menu {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header .navbar-brand img {
+        margin: -15px 0;
+        max-width: 17%;
+    }
+    header button.navbar-toggler i {
+        font-size: 25px;
+        color: #143e5f;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 50px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 18px;
+    }
+    section.why_us h2 {
+        font-size: 30px;
+    }
+    section.why_us p {
+        font-size: 16px;
+    }
+    section.who_we_are h2 {
+        font-size: 30px;
+    }
+    section.who_we_are p {
+        font-size: 16px;
+    }
+    section.customers h2 {
+        font-size: 30px;
+    }
+    section.solutions_banner .banner_content {
+        max-width: 400px;
+        width:50%;
+    }
+    section.solutions_banner.akounter_invoice .banner_content{
+        width:75%
+    }
+    section.akounter_invoice .banner_content h1{
+        font-size:35px;
+    }
+    section.solutions_banner .banner_content.contact_us.right {
+        width:45%;
+        right:30px;
+        top:25%;
+    }
+    section.solutions_banner .banner_content h2 {
+        font-size: 50px;
+    }
+    section.solutions_banner .play_btn {
+        left: 78%;
+        font-size: 125px;
+    }
+    section.why_us p {
+        padding: 0;
+    }
+    footer .upper_footer .col-sm-12 {
+        margin-bottom: 25px;
+    }
+    footer .upper_footer .col-12 {
+        margin-bottom: 25px;
+    }
+    section.solutions_banner {
+        background-position-x: center;
+    }
+    section.our_expertise {
+        padding: 50px 0;
+    }
+    section.our_expertise.office_on_cloud{
+        padding:50px 0 0;
+    }
+    section.our_expertise p {
+        font-size: 18px;
+    }
+    section.case_studies .case_study_tabs h2 {
+        font-size: 34px;
+    }
+    section.case_studies .case_study_tabs .case_study_tab {
+        width: 48%;
+        margin: 0 auto 25px !important;
+    }
+    section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading {
+        padding: 10px 20px 10px;
+    }
+    section.brief_intro .intro_heading h3 {
+        font-size: 30px;
+    }
+    section.brief_intro .intro_text p {
+        font-size: 16px;
+    }
+    section.brief_intro .intro_text ul li {
+        font-size: 16px;
+    }
+    section.explained_intro .explained_intro_text p {
+        font-size: 16px;
+    }
+    section.explained_intro .explained_intro_text ul li {
+        font-size: 16px;
+    }
+    section.explained_intro .intro_tab {
+        width: 48%;
+        margin: 0 auto 25px !important;
+    }
+    section.blogs .blog_tabs .blog_tab {
+        width: 48%;
+        margin: 0 auto 25px !important;
+    }
+    section.explained_intro .intro_tab p {
+        font-size: 16px;
+    }
+    section.our_vision .our_vision_text h3 {
+        font-size: 30px;
+    }
+    section.our_vision .our_vision_text h3 {
+        font-size: 30px;
+    }
+    section.our_vision .our_vision_text {
+        padding: 50px 30px 50px 20px;
+    }
+    section.brief_intro .happay .intro_heading{
+        border:none;
+    }
+    section.careers h3 {
+        font-size: 30px;
+    }
+    section.careers p {
+        font-size: 16px;
+        padding: 25px 60px 0;
+    }
+ 
+    section.future_tabs h3 {
+        font-size: 30px;
+    }
+    section.solutions_banner .banner_content.contact_us h2{
+        font-size:35px;
+    }
+    section.solutions_banner .banner_content.contact_us form{
+        width:60%;
+    }
+    section.solutions_banner .banner_content.contact_us.right form{
+        margin-left:40%;
+    }
+}
+@media only screen and (max-width: 768px){
+    header nav.navbar .get_in_touch{
+        top: 29px;
+        right: 80px;
+    }
+    header nav.navbar div.navbar-collapse ul .active{
+        display: none;
+    }
+    header nav.navbar div.navbar-collapse ul li.nav-item.automated a.dropdown-toggle:before{
+        content:'Automate'
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab{
+        width:90%;
+        margin-bottom:25px;
+    }    
+    section.our_expertise img{
+        width:75%;
+    }
+    section.explained_intro img{
+        width:75%;
+    }
+    section.explained_intro .intro_tab img{
+        width:50px;
+        height:50px;
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab.akounter_cloud{
+        width:80%;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item.text_left .carousel-caption{
+        width:350px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item.text_left.office_on_cloud .carousel-caption h3{
+        font-size:35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav .show .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 35px
+    }
+    .navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 45px
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 40px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 16px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item img {
+        object-position: left;
+        object-fit: cover;
+    }
+    section.solutions_banner .banner_content h2 {
+        font-size: 45px;
+    }
+    section.solutions_banner .banner_content p {
+        font-size: 17px;
+    }
+    section.solutions_banner .play_btn {
+        font-size: 110px;
+    }
+    section.our_expertise p {
+        font-size: 17px;
+    }
+    
+}
+
+@media(max-width:600px) {
+    header nav.navbar .get_in_touch{
+        top: 23px;
+        right: 70px;
+        font-size:14px;
+    }
+    header .navbar-brand img {
+        max-width: 33%;
+        margin: -25px 0;
+    }
+    .floating_button .floating_demo a{
+        padding:7px;
+        font-size:16px;
+    }
+    
+    section.banner #banner_carousel .carousel-inner .carousel-item.text_left .carousel-caption{
+        left:30px;
+        width:310px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item.text_left.office_on_cloud .carousel-caption h3{
+        font-size:30px;
+    }
+    section.solutions_banner.office_on_cloud{
+        background-position: right;
+    }
+    section.our_mantra .mantras .mantra_tab .mantra_tab_image i {
+        font-size: 40px;
+    }
+    section.explained_intro .intro_tab i {
+        font-size: 40px;
+    }
+    section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul li {
+        font-size: 16px;
+    }
+    section.solutions_banner.office_on_cloud .banner_content{
+        display:none;
+    }
+    section.solutions_banner.office_on_cloud .banner_content.contact_us{
+        display:block;
+    }
+    section.solutions_banner.office_on_cloud.tally_mobile .banner_content{
+        display:block;
+        width:90%;
+        top:17%;
+    }
+    section.solutions_banner .banner_content {
+        top: 20%;
+        left: 30px;
+        max-width: 350px;
+    }
+    section.solutions_banner .banner_content h2 {
+        font-size: 40px;
+    }
+    section.solutions_banner .play_btn {
+        left: 50%;
+        top: 82%;
+        font-size: 100px;
+    }
+    section.our_expertise p {
+        font-size: 16px;
+    }
+    section.our_expertise img{
+        width:90%;
+    }
+    section.future_tabs .happay h2,
+    section.brief_intro .happay .intro_heading h2{
+        font-size:28px;
+    }
+    section.future_tabs .future_tab .future_tab_content span.title,
+    section.brief_intro .happay .solutions_list h2{
+        font-size:22px;
+    }
+    section.options_band ul {
+        padding: 15px 0;
+    }
+    section.case_studies .case_study_tabs .case_study_tab {
+        width: 95%;
+    }
+    section.case_studies .case_study_tabs h2 {
+        font-size: 30px;
+    }
+    section.case_studies .case_study_tabs .case_study_tab .case_study_tab_heading h4 a {
+        font-size: 22px;
+    }
+    section.case_studies .case_study_tabs .case_study_tab .case_study_tab_text p {
+        font-size: 15px;
+    }
+    section.blogs .blog_tabs .blog_tab .blog_tab_heading h4 a {
+        font-size: 22px;
+    }
+    section.blogs .blog_tabs .blog_tab .blog_tab_text p {
+        font-size: 15px;
+    }
+    section.brief_intro .intro_heading {
+        border-right: none;
+        margin-bottom: 20px;
+    }
+    section.explained_intro .intro_tab {
+        width: 85%;
+    }
+    section.blogs .blog_tabs .blog_tab {
+        width: 85%;
+    }
+    section.our_vision .our_vision_text {
+        padding-bottom: 0;
+    }
+    section.our_vision .our_vision_image {
+        padding-bottom: 0;
+    }
+    section.careers p {
+        padding: 25px 0 0;
+    }
+    section.careers a {
+        font-size: 15px;
+    }
+    section.solutions_banner.blog_banner {
+        height: 400px;
+    }
+    section.solutions_banner.about_us_banner {
+        height: 600px;
+    }
+    section.solutions_banner.about_us_banner .banner_content{
+        top:80%;
+        left:25px;
+        right:auto;
+    }
+    section.solutions_banner .banner_content.contact_us{
+        top:15%;
+        left:25px;
+    }
+    section.solutions_banner .banner_content.contact_us.right{
+        width:80%;
+        right:80px;
+    }
+    section.solutions_banner .banner_content.contact_us h2{
+        font-size:28px;
+    }
+    section.solutions_banner .banner_content.contact_us form{
+        width:75%;
+    }
+    section.solutions_banner .banner_content.contact_us.right form{
+        margin-left:25%;
+    }
+   
+    section.brief_intro.vena_solutions .intro_heading {
+        border: none;
+        padding-right: 0;
+    }
+    section.explained_intro img{
+        width:75%;
+        margin:15px auto;
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab p{
+        text-align:justify;
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab img{
+        margin:0 auto 15px;
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab.akounter_cloud{
+        width:95%;
+    }
+    section.explained_intro .explained_intro_text .explained_intro_tab.akounter_cloud ul{
+        padding-left:40px;
+    }
+    section.explained_intro .explained_intro_text{
+        padding-bottom:0;
+    }
+    section.solutions_banner.tally_mobile .tally_on_mob_btn {
+        display:block;
+        position:absolute;
+        left:30px;
+        bottom:15px;
+        z-index:1;
+        padding:4px 6px;
+        color:#fff;
+        background-color:#4dbbc2;
+        border-radius:5px;
+        border:1px solid #143e5f;
+        text-decoration:none;
+    }
+}
+
+@media(max-width:320px) {
+    header button.navbar-toggler i {
+        font-size: 22px;
+    }
+    header .navbar-brand img {
+        max-width: 32%;
+    }
+    section.banner #banner_carousel .carousel-inner {
+        height: 400px;
+    }
+    section.banner #banner_carousel .carousel-inner .carousel-item .carousel-caption {
+        top: 30%;
+    }
+    section.why_us h2 {
+        font-size: 28px;
+    }
+    section.why_us p {
+        font-size: 14px;
+    }
+    section.who_we_are h2 {
+        font-size: 28px;
+    }
+    section.who_we_are p {
+        font-size: 14px;
+    }
+    section.customers h2 {
+        font-size: 28px;
+    }
+    section.our_mantra .mantras .mantra_tab .mantra_tab_image i {
+        font-size: 35px;
+    }
+    section.our_mantra .mantras .mantra_tab .mantra_tab_pointers ul li {
+        font-size: 14px;
+    }
+    section.solutions_banner .banner_content {
+        top: 20%;
+        left: 20px;
+        max-width: 300px;
+    }
+    section.case_studies .case_study_tabs .case_study_tab {
+        width: 95%;
+    }
+    section.brief_intro .intro_heading h3 {
+        font-size: 28px;
+    }
+    section.brief_intro .intro_text p {
+        font-size: 14px;
+    }
+    section.brief_intro .intro_text ul li {
+        font-size: 14px;
+    }
+    section.explained_intro .explained_intro_text h3 {
+        font-size: 28px;
+    }
+    section.explained_intro .explained_intro_text p {
+        font-size: 14px;
+    }
+    section.explained_intro .explained_intro_text ul li {
+        font-size: 14px;
+    }
+    section.explained_intro .intro_tab p {
+        font-size: 14px;
+    }
+    section.our_vision .our_vision_text h3 {
+        font-size: 28px;
+    }
+    section.our_vision .our_vision_text p {
+        font-size: 14px;
+    }
+    section.our_vision .our_vision_text h3 {
+        font-size: 28px;
+    }
+    section.our_vision .our_vision_text p {
+        font-size: 14px;
+    }
+    section.careers h3 {
+        font-size: 28px;
+    }
+    section.future_tabs h3 {
+        font-size: 28px;
+    }
+    section.future_tabs h4 {
+        font-size: 20px;
+    }
+    section.brief_intro .solutions_list h4 {
+        font-size: 20px;
+    }
+    section.brief_intro .solutions_list ul {
+        font-size: 16px;
+    }
+    section.solutions_banner.automation_anywhere .site_link a {
+        padding: 10px;
+    }
+}
+
+/**** MEDIA QUERIES FOR TIME MANAGEMNET *****/
+
+    @media(max-width:768px){
+        section.time_m .banner_content h1 {
+            margin-bottom: 60px;
+        }
+
+        section.options_band ul{
+            text-align: center;
+        }
+
+        /*section.options_band ul li {
+            margin-left: -60px;
+        }*/
+
+        section.time_m .intro_heading {
+            color: #000;
+            padding-right: 100px;
+            border-right: 6px solid rgb(128 194 40);
+        }
+
+        section.time_m .intro_heading h2{
+            padding: 0px;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+
+        
+
+        section.request_a_demo .time_m .center h2{
+            padding-right: 40px;
+        }
+
+        section.request_a_demo .time_m .center_btn{
+            padding-top: 10px;
+            margin-left: 0px;
+        }
+
+        section.explained_intro .time_m img{
+            margin: 0px;
+            width: 100%;
+        }
+
+        section.explained_intro .time_m .intro_for_media{
+            margin-top: 20px;
+        }
+
+        section.explained_intro .explained_intro_tab .intro_text{
+           /*margin-left: -30px;*/
+           /*width: 698px;*/
+        }
+
+        section.assistance .b_r h2{
+            margin-top: -10px;   
+            margin-left: 60px;
+        }
+
+       /* section.assistance .b_r {
+           margin-left: -100px;
+        }*/
+
+        section.assistance p{
+            margin-top: 0;
+            padding-top: 40px;   
+        }
+    }
+
+    @media(max-width: 468px){
+
+        section.solutions_banner.time_m{
+            height: 400px;
+        }
+        section.time_m .banner_content h1{
+            font-size: 30px;
+            margin: 0px;
+            margin-top: 80px
+            /*padding-top: 20px;*/
+            /*padding-right: 40px;*/
+        }
+
+        section.options_band ul li{
+            padding-left: 15px;
+        }
+
+        section.our_expertise .time_m p{
+            /*padding-right: 50px;*/
+        }
+
+        section.time_m .intro_heading h2{
+            font-size: 30px;
+            
+            text-align: center;
+            
+        }
+
+        section.time_m{
+            padding: 0;
+        }
+
+
+       
+
+        section.time_m .intro_heading {
+            padding: 0;
+            border: none;
+            border-bottom: 4px solid rgb(128 194 40);
+            margin: 0px 15px 0px 15px;
+
+        }
+
+        section.request_a_demo .time_m h2{
+            margin: 0px;
+            padding: 0px;
+            padding-left: 20px;
+            font-size: 24px!important;
+        }
+
+         section.request_a_demo .time_m .center_btn{
+            padding: 0px;
+            padding: 80px 0px 0px 0px;
+            margin: 0px;
+            /*padding-right: 50px!important;*/
+            
+        }
+
+        section.request_a_demo {
+            padding: 50px 0;
+        }
+
+        section.explained_intro .time_m .intro_text{
+            /*padding-right: 60px!important;*/
+            text-align: left;
+        }
+
+         section.explained_intro .time_m  p{
+            /*padding-right: 60px!important;*/
+            text-align: center;
+        }
+
+        section.explained_intro .time_m .intro_text ul{
+                text-align: left;
+        }
+
+        section.explained_intro .time_m .intro_txt{
+            padding-right: 60px!important;
+        }
+
+        section.assistance {
+            height: auto;
+        }
+
+        section.assistance .b_r {
+           border:none;
+           border-bottom: 3px solid rgb(128 194 40);
+            margin-left: 15px;
+            margin-right: 15px;
+
+
+        }
+
+        section.assistance .b_r h2{
+            margin: 0px;
+            padding: 0px;
+            text-align:center;
+            padding-top: 20px;
+
+        }
+
+        section.assistance p{
+            margin: 0px;
+            padding: 0px;
+            text-align:center;
+            padding: 20px;
+
+        }
+    }
+
+    /******** END TIME MANAGEMENT MEDIA   ****/
+
+
+
+    /****** MEDIA QUERIES FOR TASK MANAGEMENT   *****/
+
+        
+         @media(max-width:768px){
+            .image img{
+                margin: 0px;
+                /*padding-left: 50px;*/
+                width: 100%;
+                padding-bottom: 50px;
+                margin-top: -60px
+            }
+
+            section.task_m .intro_heading{
+                margin: 0px;
+                margin-top: 10px;
+                height: 400px;
+            }
+
+            section.highlights .intro_heading h2{
+                margin: 0px;
+                padding: 0px;
+                /*border-bottom: 2px solid rgb(128 194 40);*/
+            }
+
+            section.highlights .intro_heading {
+                margin: 0px;
+                height:600px;
+                margin: 30px 0px;
+                padding-top: 60px;
+            }
+         }
+
+         @media(max-width: 468px){
+
+            section.solutions_banner.task_m {
+                height: 400px;
+            }
+
+            section.task_m .banner_content h1{
+                margin: 0px;
+                /*text-align: center;*/
+                padding-top: 40px;
+                font-size: 30px;
+            }
+
+            section.task_m .intro_heading{
+                border-bottom: 3px solid #f5bc10;
+                padding: 0px 30px 0px 30px;
+                height: 250px;
+                margin: 0 10px 0 10px;
+                /*height:auto;*/
+            }
+
+             section.brief_intro .intro_text p.bold_text {
+            /*font-weight: 900;*/
+            margin-bottom: -10px;
+        }
+
+            section.task_m .intro_heading h2{
+                text-align: center;
+            }
+
+            section.task_m .intro_text{
+                text-align:center;
+            }
+
+            section.task_m .intro_text ul{
+                text-align:left;
+            }
+
+            .image img{
+                margin: 0px;
+                width: 100%;
+                margin-top: -100px;
+            }
+
+            section.request_a_demo h2{
+                /*padding: 20px;*/
+                /*font-size: 24px!important;*/
+            }
+
+            section.request_a_demo .center_btn{
+                padding: 30px;
+                /*font-size: 24px!important;*/
+            }
+
+            section.explained_intro .explained_intro_text .explained_intro_tab{
+                width: 0px;
+                width: 100%;
+            }
+
+            section.explained_intro .explained_intro_text .explained_intro_tab{
+               text-align:center;
+            }
+
+            section.explained_intro .explained_intro_text .explained_intro_tab ul{
+               text-align:left;
+            }
+
+
+            section.highlights{
+                height: auto;
+            }
+
+           section.highlights .intro_heading h2{
+                font-size: 30px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            section.highlights .intro_heading {
+                border: none;
+                padding: 0px;
+                margin: 0px;
+                /*margin: 0 15px;*/
+                padding: 20px;
+                
+                height: auto;
+                
+                border-bottom: 3px solid rgb(128 194 40);
+            }
+
+            section.highlights .intro_text ul{
+                text-align: left;
+            }
+        }
+
+
+
+
+    /******* END TASK MANAGEMENT MEDIA ******/
+
+/****** MEDIA QUERIES FOR HAPPAY ******/
+@media(max-width: 468px){
+    section.banner_happay h1 {
+        padding: 0;
+        padding: 90px 0 0 0;
+    }
+}
+
+ @media(max-width: 768px){
+    section.banner_happay p{
+        padding: 20px 0;
+    }
+ }
+
+/****** END HAPPAY MEDIA   *******/
+
+/***** MEDIA QUERIES FOR TEAMOGY *****/
+
+ @media(max-width: 468px){
+
+    section.teamogy h1{
+        padding: 0;
+        padding: 90px 0 0 0;
+       
+    }
+
+    section.teamogy  p {
+        font-size: 18px;
+        padding: 20px 0 ;
+    }
+
+    section.brief_intro .teamogy .intro_heading {
+        border: none;
+    }
+
+    section.explained_intro .teamogy {
+        padding: 0;
+    }
+    section.explained_intro .teamogy h2{
+        margin: 0;
+        padding: 0;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    section.explained_intro .teamogy p{
+        margin: 0;
+        padding: 0;
+        padding: 20px;
+        text-align: center;
+        /*font-size: 20px;*/
+    }
+
+    section.brief_intro .teamogy .solutions_list{
+        padding: 0;
+    }
+ }
+
+/******End TEAMOGY MEDIA    ******/
+
+ /****** MEDIA QUERIES FOR AKOUNTER INVOICE STARTS HERE  *****/
+
+ @media(max-width: 468px){
+    section.akounter_invoice .banner_content h1:after {
+        top: 100%;
+    }
+
+    section.akounter_invoice .banner_content p{
+        padding: 0;
+        margin: 0;
+    }
+ }
+
+ /******** MEDIA QUERIES FOR AKOUNTER INVOICE ENDS HERE*****/
+
+
+/* header dropdown right of solution other */
+header nav.navbar div.navbar-collapse .dropdown-menu.dropright {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 15%;
+    left: 200px;
+    right: auto;
+    min-width: 200px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.3s step-end;
+}
+header nav.navbar div.navbar-collapse .dropdown-toggle.dright:after {
+    position: absolute;
+    content: '\f106';
+    font-size: 16px;
+    font-family: "FontAwesome";
+    right: 0;
+    top: 20px;
+    border: none;
+    transform: rotate(90deg);
+}
+@media (max-width: 991px){
+header nav.navbar div.navbar-collapse .dropdown-menu.dropright {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    right: auto;
+    min-width: 200px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.3s step-end;
+}
+header nav.navbar div.navbar-collapse .dropdown-toggle.dright:after {
+    position: absolute;
+    content: '\f105';
+    font-size: 16px;
+    font-family: "FontAwesome";
+    right: 0;
+    top: 20px;
+    border: none;
+    transform: rotate(90deg);
+}
+}

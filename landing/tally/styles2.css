@@ -1,0 +1,528 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+/* navigation section at top bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 0 3%;
+  /* Adding this rule to make sure no extra space is caused by line-height */
+  line-height: 1;
+  max-width: 100%;
+}
+
+.company-logo {
+  max-width: 140px;
+  /* Ensuring the image doesn't add any extra space */
+  display: block;
+  margin: -25px 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.company-telephone {
+  max-width: 30px;
+  height: auto;
+  /* Ensuring the image doesn't add any extra space */
+  display: block;
+}
+
+p {
+  /* Resetting margin on the paragraph */
+  margin: 0;
+}
+
+/* Banner */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tally-banner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+.tally-banner-1,
+.tally-banner-2 {
+  box-sizing: border-box;
+}
+.tally-banner-1 {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  height: 50%;
+}
+.tally-banner-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+.tally-banner-2 img {
+  width: 100%;
+  height: 27%;
+}
+.whatsappus {
+  display: none;
+}
+.whatsappus-below-main-banner {
+  display: inline-block;
+  z-index: 10;
+}
+.form-below-main-banner {
+  display: none;
+}
+.whatsappus-below-main-banner,
+.whatsappus,
+.whatsappus2 {
+  max-width: 180px;
+  padding: 10px 20px; /* Adds padding to make it look like a button */
+  background-color: #25d366; /* WhatsApp green background color */
+  color: white; /* White text color */
+  text-align: center; /* Centers the text */
+  text-decoration: none; /* Removes the underline from the link */
+  border-radius: 15px; /* Adds rounded corners */
+  border: 2px solid #25d366; /* Border matching the background color */
+  font-size: 18px; /* Adjusts the font size */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+.whatsappus:hover {
+  background-color: white; /* Background color changes on hover */
+  color: #25d366; /* Text color changes on hover */
+}
+
+.tally-banner-2-img-below-main-banner {
+  display: none;
+}
+
+#formModal {
+  position: fixed;
+  left: 37%;
+  top: 15%;
+  width: 40%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  background-color: #3169b3;
+  align-items: center;
+  z-index: 20;
+  padding: 0;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+#formModal iframe {
+  border-radius: 0 0 10px 10px; /* Rounds the bottom corners */
+}
+.form-header {
+  padding: 15px 25px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+#skip-button {
+  padding: 3px 8px;
+  background-color: #25d366;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  border: 0;
+}
+@media (max-width: 764px) {
+  #formModal {
+    width: 90%;
+    top: 10%;
+    left: 5%;
+  }
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+  padding: 0;
+}
+
+/* motto section just below banner */
+.motto {
+  margin-top: 10px;
+  background-image: url("./img/motto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4% 4%;
+  max-width: 100%; /* Ensure it doesn’t exceed the viewport width */
+  color: white;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+/* why tally section */
+.why_tally {
+  margin-top: 50px;
+  display: flex;
+  gap: 5%;
+  padding: 0 4%;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+.why_tally h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+}
+.why_tally p {
+  font-family: "Raleway", Sans-serif;
+}
+.why_tally-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  font-size: 14px;
+}
+.why_tally-img {
+  width: 45%;
+  z-index: 10;
+}
+
+/* features section */
+.features {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: #6bbee6;
+  font-size: 16px;
+}
+.features svg {
+  display: block;
+}
+.features_section {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.features_section_text,
+.features_section_img {
+  width: 40%;
+  line-height: 1.6rem;
+  font-size: 14px;
+}
+.features_section_text h2 {
+  line-height: 2rem;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.features-section-text-last {
+  margin-top: 60px;
+}
+
+/* get more section */
+.get-more {
+  margin-top: -100px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background-image: url("./img/get_more/main.svg");
+  background-size: contain; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.get-more-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  z-index: 1;
+}
+.get-more-section-img-container {
+  background-size: contain; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.get-more-section-img {
+  max-width: auto;
+}
+.get-more-section-txt {
+  margin-top: 50px;
+  width: 40%;
+}
+.get-more-section-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.get-more-section-txt ul {
+  padding-left: 20px;
+}
+.get-more-section svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.rate-cards {
+  margin-top: 50px;
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+.rate-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.rate-card {
+  font-family: "Raleway", sans-serif;
+  max-width: 350px;
+  padding: 50px 38px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+.rate-card-logo {
+  width: 36%;
+  margin-bottom: 16px;
+}
+.rate-card-plan {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #686868;
+}
+.rate-card-plan-desc {
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+.rate-card-price {
+  font-size: 44px;
+  margin-bottom: 25px;
+  line-height: 2.5rem;
+}
+.rate-card-dis {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.rate-card-btn,
+.buy-now-btn,
+.enquire-now-button {
+  text-decoration: none;
+  color: black;
+  background-color: #ffc632;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 24px;
+  border: 0;
+}
+.enquire-now-button {
+  font-size: 22px;
+  background-color: #ffc632;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+.enquire-now-btn {
+  text-decoration: none;
+  position: fixed;
+  right: 0px; /* Distance from the right edge */
+  top: 45vh; /* 70% of the viewport height */
+  transform: translateY(-50%) rotate(180deg); /* Rotate the text vertically */
+  transform-origin: center; /* Ensures the rotation is centered */
+  padding: 12px 14px;
+  background-color: #4dbbc2; /* Adjust the background color */
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  writing-mode: vertical-lr; /* Changes the text direction for a cleaner vertical appearance */
+}
+.rate-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .company-logo {
+    max-width: 120px;
+  }
+  .navigation {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .nav-right img {
+    height: 1.1rem;
+  }
+  .nav-right p {
+    font-size: 0.9rem;
+  }
+  .banner-container {
+    margin-top: -20px;
+    height: 1100px;
+  }
+  .features-section-text-last {
+    margin-top: 0px;
+  }
+  .enquire-now-btn {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .form {
+    display: none;
+  }
+  .whatsappus-below-main-banner {
+    display: none;
+  }
+  .whatsappus {
+    display: inline-block;
+  }
+  .form-below-main-banner {
+    display: block;
+    height: 700px;
+  }
+  .tally-banner-2 img {
+    height: 50%;
+  }
+  .tally-banner-1 {
+    width: 100%;
+  }
+  .tally-banner-2 {
+    display: none;
+  }
+  .tally-banner-2-img-below-main-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  .tally-banner-2-img-below-main-banner img {
+    width: 30%;
+  }
+  .nav-right {
+    font-size: 1.3rem;
+  }
+  .whatsappus {
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 140px;
+    padding: 4px 6px;
+  }
+  .divider {
+    display: none;
+  }
+  .motto {
+    margin-top: -420px;
+    font-size: 14px;
+    line-height: 1.6rem;
+  }
+  .why_tally {
+    margin-top: 0px;
+    display: block;
+  }
+  .why_tally-text,
+  .why_tally-img {
+    width: 100%;
+  }
+  .why_tally h2 {
+    font-size: 38px;
+  }
+  .features_section {
+    margin-top: 100px;
+    padding: 0 6%;
+  }
+  .features_section_img,
+  .features_section_text {
+    width: 100%;
+  }
+  .features {
+    margin-top: -30px;
+  }
+  .get-more {
+    margin-top: -50px;
+  }
+  .get-more h1 {
+    line-height: 2rem;
+  }
+  .get-more-section-img,
+  .get-more-section-txt {
+    width: 100%;
+  }
+  .get-more-section-txt {
+    padding: 0 4%;
+    margin-top: 0;
+  }
+  .mid-section-txt {
+    margin-top: 50px;
+  }
+  .get-more-section {
+    gap: 10px;
+  }
+  .get-more-section-img-container {
+    height: 350px;
+    background-size: contain;
+  }
+  .rate-cards-container {
+    padding: 0 2%;
+  }
+  .rate-cards {
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .rate-card {
+    padding: 45px 0;
+  }
+}
