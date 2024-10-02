@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <!-- SEO -->
-
     <title>An Automation Company Service Provider | iZoe Solutions | iZoe</title>
     <meta name="description" content="Izoe is an Automation company service provider with decades of experience in help you grow your business exponentially. iZoe offers scalable and practical approach to the business problems and help business to succeed. looking for reliable services? Contact iZoe Solutions for demo.">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
     <meta name="news_keywords" content="keyword1, keyword2, keyword3">
     <meta name="language" content="English">
-
-
     <meta name="website" content="https://izoe.in" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="rating" content="General" />
@@ -32,7 +29,7 @@
     <meta name="robots" content="index, follow, noodp, noydir, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, noodp, noydir, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, noodp, noydir, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="https://izoe.in">
+    <link rel="canonical" href="https://www.izoe.in">
     <meta property="og:url" content="https://izoe.in">
     <meta property="og:site_name" content="An Automation Company Service Provider | iZoe Solutions | iZoe" />
     <meta property="og:locale" content="en_US">
@@ -83,10 +80,7 @@
         ?>
 
         <main class="">
-            <link rel="canonical" href="index.html" />
-
             <div class="wrapper">
-
                 <section class="banner">
                     <div class="banner_content">
                         <div id="banner_carousel" class="carousel slide" data-ride="carousel">
@@ -97,8 +91,7 @@
                             </ul>
                             <div class="carousel-inner">
                                 <div class="carousel-item active text_left office_on_cloud">
-                                    <img src="images/office_on_cloud_banner_website.jpg" alt="Secure Cloud-Based Office Solution" width="100%"
-                                        height="550">
+                                    <img src="images/office_on_cloud_banner_website.jpg" alt="Secure Cloud-Based Office Solution" width="100%" height="550">
                                     <a href="#">
                                         <div class="carousel-caption">
                                             <h3>Shift "OFFICE ON CLOUD" not just "Tally on cloud"</h3>
@@ -206,7 +199,7 @@ By centralizing customer data and automating processes, CRM enables businesses t
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-12 why_us_content">
-                                <h2>Why iZoe?</h2>
+                                <h1 style="font-size: 36px">Why iZoe?</h1>
                                 <p>We are the Best Tech Company offering customized business solutions. iZoe solutions
                                     ensure the use of cutting-edge technologies such as process automation, business
                                     intelligence, OCR, etc., and maintain compatibility across different platforms. If
@@ -228,7 +221,7 @@ By centralizing customer data and automating processes, CRM enables businesses t
                                         niche technologies complemented by experts in the finance domain including
                                         CA/CS/MBA.
                                     </p>
-                                    <a href="about_us.php">Know More</a>
+                                    <a href="https://izoe.in/about-us.php">Know More</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">

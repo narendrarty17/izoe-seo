@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - Contact Us</title>
+    <title>Get in Touch for Tally Solutions and Support - iZoe Solutions</title>
+    <meta name="description" content="Get in touch with us for expert Tally solutions and support. We're here to assist you with your financial automation needs. Reach out today!" />
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/contact_us.css" type="text/css">
 
@@ -14,16 +15,13 @@
     </div>
 
     <div id="app">
-        <?php
-        include 'header.php';
-        ?>
-
+        <?php include 'header.php'; ?>
         <main class="">
 
             <div class="wrapper">
                 <section class="solutions_banner about_us_banner">
                     <div class="banner_content">
-                        <h2>Contact Us</h2>
+                        <h1 style="font-size: 64px; margin-top: -50px">Contact Us</h1>
                     </div>
                 </section>
 

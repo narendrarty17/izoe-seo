@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - Request A Demo</title>
+    <title>Request a Demo for  iZoe’s Tally and Cloud Solutions</title>
+    <meta name="description" content="Experience our Tally solutions firsthand! Request a demo today to see how we can streamline your financial processes and boost your business efficiency." />
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/request-a-demo.css" type="text/css">
 

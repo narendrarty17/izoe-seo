@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>iZoe - Akounter Backup</title>
+        <title>Akounter Backup - Secure Cloud Backup Solutions for Businesses</title>
         <meta name="description" content="iZoe provides comprehensive backup solutions with robust security and flexibility. Safeguard your data with our managed service and expert guidance.">
 <?php include '../header-css-js.php'; ?>
 <link rel="stylesheet" href="../css/akounter-backup.css" type="text/css">

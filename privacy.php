@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - Privacy Policy</title>
+    <title>Privacy Policy – Know How iZoe Protects Your Data and Information</title>
+    <meta name="description" content="earn how we protect your data and privacy. Our privacy policy outlines our commitment to safeguarding your information and ensuring your trust." />
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/privacy.css" type="text/css">
 </head>
@@ -23,7 +24,7 @@
             <div class="wrapper">
                 <section class="solutions_banner about_us_banner">
                     <div class="banner_content">
-                        <h2>Privacy Policy</h2>
+                        <h1 style="font-size: 64px; margin-top: -60px;">Privacy Policy</h1>
                     </div>
                 </section>
                 <section class="careers">

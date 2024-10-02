@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - QuickBooks On Cloud</title>
+    <title>QuickBooks Cloud – Optimize Accounting with iZoe Cloud Services</title>
     <?php include '../header-css-js.php'; ?>
     <link rel="stylesheet" href="../css/quickbooks.css" type="text/css"> 
 <meta name="description" content="Host QuickBooks on the cloud with iZoe for secure, scalable access anytime, anywhere. Benefit from 24/7 support, data encryption, and SSD-based servers.">

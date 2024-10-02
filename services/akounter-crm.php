@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>iZoe - Akounter Crm</title>
+    <title>Akounter CRM - Boost Business Efficiency with iZoe Solutions</title>
     <meta name="description" content="Akounter CRM offers a sleek, modern design with features like lead management, invoicing, and task tracking. Customize to your brand and boost business efficiency.">
 <?php include '../header-css-js.php'; ?>
 <link rel="stylesheet" href="../css/akounter-crm.css" type="text/css">   

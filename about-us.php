@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - About Us</title>
+    <title>About iZoe – Experts in Tally and Financial Automation</title>
     <meta name="description" content="Be part of a tech pioneer in India! We deliver smart, effective solutions and drive client growth through innovation and cost-efficiency. Buy Tally for seamless business operations and explore Tally on Cloud for enhanced flexibility. With competitive Tally cloud pricing, we ensure affordability and superior performance.">
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/about_us.css" type="text/css">
-
 </head>
-
 <body class="parallax floating_button">
     <!-- ENQUIRE NOW FLOATING BUTTON  -->
     <div class="floating_demo">
         <a id="openModalBtn" href="#">Enquire Now</a>
     </div>
     <div id="app">
-        <?php
-        include 'header.php';
-        ?>
-
+        <?php include 'header.php'; ?>
         <main class="">
-
             <div class="wrapper">
                 <section class="solutions_banner about_us_banner">
                     <div class="banner_content">
-                        <h2>About Us</h2>
+                        <h1 style="font-size: 72px">About Us</h1>
                     </div>
                 </section>
                 <section class="our_vision">
@@ -70,7 +64,7 @@
                                     goals is why we’re all here. Changing an entire industry isn’t always a straight
                                     path forward, but it’s an experience unlike anything else. <br /> You can reach us at hr@finsq.in</p>
                                 <a href="mailto:hr@finsq.in">E-mail your CV</a>
-                                <a href="https://izoe.in/contact_us" type="button" >Contact Us</a>
+                                <a href="https://izoe.in/contact-us" type="button" >Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -78,11 +72,7 @@
         </main>
     </div>
 
-    <?php
-    include 'footer.php';
-    ?>
+    <?php include 'footer.php';?>
     <?php include 'footer-js.php'; ?>
 </body>
-
-
 </html>

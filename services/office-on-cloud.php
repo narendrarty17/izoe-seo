@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iZoe - Akounter Cloud</title>
-<?php include '../header-css-js.php'; ?>
-<link rel="stylesheet" href="../css/office-on-cloud.css" type="text/css">
-<meta name="description" content="Discover Akounter Cloud: Your all-in-one office on cloud solution offering seamless remote access to accounting and compliance tools, secure data backups, and affordable, scalable services.">
+    <title>Office on Cloud - Remote Access for Business with iZoe Solutions</title>
+    <?php include '../header-css-js.php'; ?>
+    <link rel="stylesheet" href="../css/office-on-cloud.css" type="text/css">
+    <meta name="description" content="Discover Akounter Cloud: Your all-in-one office on cloud solution offering seamless remote access to accounting and compliance tools, secure data backups, and affordable, scalable services.">
 </head>
 <body class="parallax floating_button">
         <!-- ENQUIRE NOW FLOATING BUTTON  -->

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>Tally Licence - iZoe</title>
+	  <title>Tally License Services - Buy, Renew, and Get Support | iZoe</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <?php include '../header-css-js.php'; ?>
     <link rel="icon" href="./img/izoe.svg" type="image/x-icon">
-    <title>Your Page Title</title>
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="styles.css" />
     <style>
@@ -33,12 +32,12 @@
       <img 
         class="tally-banner-img"
         src="./img/banners/licence_webpage.jpg"
-        alt="Tally Banner 1" 
+        alt="Tally Banner" 
       />
       <img 
         class="tally-banner-img"
         src="./img/banners/Banner_02.jpg"
-        alt="Tally Banner 2" 
+        alt="Tally Banner" 
       />
     </div>
     <div class="divider" />
@@ -79,7 +78,7 @@
           even more.
         </p>
       </section>
-      <img class="why_tally-img" src="./img/why_tally.png" />
+      <img class="why_tally-img" src="./img/why_tally.png" alt="why tally" />
     </div>
     <div class="features">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -94,6 +93,7 @@
           style="margin-top: -150px"
           class="features_section_img"
           src="./img/features/man_with_desk.png"
+          alt="tally features"
         />
         <section style="margin-top: -20px" class="features_section_text">
           <h2>Quick to set up,<br />ease to use</h2>
@@ -120,7 +120,7 @@
             business's success.
           </p>
         </section>
-        <img class="features_section_img" src="./img/features/explaining_people.png" />
+        <img class="features_section_img" src="./img/features/explaining_people.png" alt="get business insights" />
       </div>
       <div style="margin-top: 40px" class="features_section">
         <img class="features_section_img" src="./img/features/guy_with_laptop.png" />
