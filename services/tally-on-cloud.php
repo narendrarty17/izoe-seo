@@ -3,6 +3,15 @@
 
 <head>
     <title>Tally on Cloud - Flexible, Secure Cloud Solutions for Enterprises</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta name="description" content="Experience hassle-free Tally on Cloud with our secure, affordable service at just ₹500/user/month. With automatic updates and backups, you can enjoy seamless Tally Prime remote access anytime. Discover the best Tally on Cloud price for your business needs today!">
     <?php include '../header-css-js.php'; ?>
     <link rel="stylesheet" href="../css/tally-on-cloud.css" type="text/css">

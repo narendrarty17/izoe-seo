@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
 	  <title>Tally License Services - Buy, Renew, and Get Support | iZoe</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,17 +23,6 @@
     </style>
   </head>
   <body>
-    <!--<nav class="navigation">-->
-    <!--  <img class="company-logo" src="./img/izoe.svg" alt="Company Logo" />-->
-    <!--  <div class="nav-right">-->
-    <!--    <img-->
-    <!--      class="company-telephone"-->
-    <!--      src="./img/telephone.svg"-->
-    <!--      alt="Telephone Icon"-->
-    <!--    />-->
-    <!--    <p>+91 - 9919748714</p>-->
-    <!--  </div>-->
-    <!--</nav>-->
     <?php
         include '../header.php';
         ?>

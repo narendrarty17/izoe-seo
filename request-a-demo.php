@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
     <title>Request a Demo for  iZoe’s Tally and Cloud Solutions</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta name="description" content="Experience our Tally solutions firsthand! Request a demo today to see how we can streamline your financial processes and boost your business efficiency." />
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/request-a-demo.css" type="text/css">

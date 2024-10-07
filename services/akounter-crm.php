@@ -4,8 +4,17 @@
 <head>
     <title>Akounter CRM - Boost Business Efficiency with iZoe Solutions</title>
     <meta name="description" content="Akounter CRM offers a sleek, modern design with features like lead management, invoicing, and task tracking. Customize to your brand and boost business efficiency.">
-<?php include '../header-css-js.php'; ?>
-<link rel="stylesheet" href="../css/akounter-crm.css" type="text/css">   
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
+    <?php include '../header-css-js.php'; ?>
+    <link rel="stylesheet" href="../css/akounter-crm.css" type="text/css">   
 </head>
 
 <body class="parallax floating_button">
@@ -30,8 +39,10 @@
                     <img id="baner-cover-logo" src="../images/akounter-cover-logo.png" alt="Izoe Akounter CRM Services">
                     <img id="banner-cover-desktop" alt="Izoe Akounter CRM desktop image" src="../images/akounter-cover-desktop.png">
                     <div class="site_link">
-                        <a href="https://akounterhr.com/" target="_blank">Take me to the SITE <i
-                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <!-- <a href="https://akounterhr.com/" target="_blank">
+                            Take me to the SITE 
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                        </a> -->
                     </div>
                 </section>
                 <section class="options_band">

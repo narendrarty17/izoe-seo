@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
     <title>About iZoe – Experts in Tally and Financial Automation</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta name="description" content="Be part of a tech pioneer in India! We deliver smart, effective solutions and drive client growth through innovation and cost-efficiency. Buy Tally for seamless business operations and explore Tally on Cloud for enhanced flexibility. With competitive Tally cloud pricing, we ensure affordability and superior performance.">
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/about_us.css" type="text/css">
@@ -17,7 +26,7 @@
             <div class="wrapper">
                 <section class="solutions_banner about_us_banner">
                     <div class="banner_content">
-                        <h1 style="font-size: 72px">About Us</h1>
+                        <h1>About Us</h1>
                     </div>
                 </section>
                 <section class="our_vision">

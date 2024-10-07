@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
     <title>Privacy Policy – Know How iZoe Protects Your Data and Information</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta name="description" content="earn how we protect your data and privacy. Our privacy policy outlines our commitment to safeguarding your information and ensuring your trust." />
     <?php include 'header-css-js.php'; ?>
     <link rel="stylesheet" href="./css/privacy.css" type="text/css">

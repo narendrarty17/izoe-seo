@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-        <title>Tally License</title>
-<?php include '../header-css-js.php'; ?>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<link rel="stylesheet" href="../css/akounter-backup.css" type="text/css">
+    <title>Tally License</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
+    <?php include '../header-css-js.php'; ?>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/akounter-backup.css" type="text/css">
     <style>
         * {
     box-sizing: border-box;

@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
     <title>iZoe - Download Ebook</title>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-WTSE8H21ZX');
+	</script>
 	<?php include 'header-css-js.php'; ?>
 	<link rel="stylesheet" href="./css/download_ebook.css" type="text/css">
 </head>

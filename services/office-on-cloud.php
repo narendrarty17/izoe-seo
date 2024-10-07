@@ -3,6 +3,15 @@
 <head>
     <title>Office on Cloud - Remote Access for Business with iZoe Solutions</title>
     <?php include '../header-css-js.php'; ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <link rel="stylesheet" href="../css/office-on-cloud.css" type="text/css">
     <meta name="description" content="Discover Akounter Cloud: Your all-in-one office on cloud solution offering seamless remote access to accounting and compliance tools, secure data backups, and affordable, scalable services.">
 </head>

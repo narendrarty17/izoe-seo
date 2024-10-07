@@ -3,6 +3,15 @@
 <head>
     <!-- SEO -->
     <title>An Automation Company Service Provider | iZoe Solutions | iZoe</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+    </script>
     <meta name="description" content="Izoe is an Automation company service provider with decades of experience in help you grow your business exponentially. iZoe offers scalable and practical approach to the business problems and help business to succeed. looking for reliable services? Contact iZoe Solutions for demo.">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
     <meta name="news_keywords" content="keyword1, keyword2, keyword3">

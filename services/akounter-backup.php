@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTSE8H21ZX"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTSE8H21ZX');
+        </script>
         <title>Akounter Backup - Secure Cloud Backup Solutions for Businesses</title>
         <meta name="description" content="iZoe provides comprehensive backup solutions with robust security and flexibility. Safeguard your data with our managed service and expert guidance.">
 <?php include '../header-css-js.php'; ?>
